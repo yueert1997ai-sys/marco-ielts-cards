@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4f2ec" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#11110f" media="(prefers-color-scheme: dark)" />
+    <meta name="description" content="Marco 的极简 IELTS 随机单词卡" />
+    <title>Marco IELTS Cards</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <p class="brand">Marco IELTS Cards</p>
+        <p id="counter" class="counter" aria-live="polite">— / —</p>
+      </header>
+
+      <nav class="controls" aria-label="学习范围">
+        <div class="segmented" aria-label="学习模式">
+          <button class="mode-button is-active" type="button" data-mode="all" aria-pressed="true">全部</button>
+          <button class="mode-button" type="button" data-mode="weak" aria-pressed="false">
+            不会的 <span id="weak-count" class="weak-count">0</span>
+          </button>
+        </div>
+
+        <div class="filters" aria-label="优先级筛选">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">全部</button>
+          <button class="filter-button" type="button" data-filter="S" aria-pressed="false">S</button>
+          <button class="filter-button" type="button" data-filter="A" aria-pressed="false">A</button>
+          <button class="filter-button" type="button" data-filter="B" aria-pressed="false">B</button>
+        </div>
+      </nav>
+
+      <main class="card-stage">
+        <article id="word-card" class="word-card" role="button" tabindex="0" aria-label="翻开单词卡" aria-pressed="false">
+          <section id="card-front" class="card-face card-front">
+            <h1 id="front-word" class="front-word">loading</h1>
+          </section>
+
+          <section id="card-back" class="card-face card-back" hidden>
+            <h2 id="back-word" class="back-word"></h2>
+            <p id="meaning" class="meaning"></p>
+
+            <div id="paraphrase-block" class="detail-block" hidden>
+              <p class="detail-label">常见改写</p>
+              <p id="paraphrases" class="detail-copy"></p>
+            </div>
+
+            <div id="collocation-block" class="detail-block" hidden>
+              <p class="detail-label">常见搭配</p>
+              <p id="collocations" class="detail-copy detail-copy-muted"></p>
+            </div>
+          </section>
+        </article>
+      </main>
+
+      <section class="actions" aria-label="单词操作">
+        <button id="show-answer" class="answer-button" type="button">显示答案</button>
+        <div id="rating-actions" class="rating-actions" hidden>
+          <button id="mark-weak" class="action-button weak-button" type="button">不会</button>
+          <button id="mark-known" class="action-button known-button" type="button">会了</button>
+          <button id="skip-word" class="action-button skip-button" type="button">下一张</button>
+        </div>
+      </section>
+
+      <p id="status-message" class="status-message" role="status" aria-live="polite"></p>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

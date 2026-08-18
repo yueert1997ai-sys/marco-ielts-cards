@@ -1,0 +1,9946 @@
+[
+  {
+    "word": "account",
+    "meaning": [
+      "描述",
+      "解释",
+      "账户"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "account for",
+      "give an account of"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "account for",
+    "meaning": [
+      "解释",
+      "占比"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "account for 30%"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "address",
+    "meaning": [
+      "处理",
+      "讨论",
+      "向……讲话或写信"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "address a problem"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "adjust",
+    "meaning": [
+      "调整",
+      "使适合"
+    ],
+    "paraphrases": [
+      "modify",
+      "alter",
+      "adapt"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "albeit",
+    "meaning": [
+      "尽管",
+      "虽然"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "alternative",
+    "meaning": [
+      "供替代的",
+      "供选择的n.替代品"
+    ],
+    "paraphrases": [
+      "substitute"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "analyse",
+    "meaning": [
+      "分析",
+      "解释"
+    ],
+    "paraphrases": [
+      "examine",
+      "diagnose"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "and",
+    "meaning": [
+      "和",
+      "而且",
+      "连接并列信息"
+    ],
+    "paraphrases": [
+      "as well as",
+      "together with"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "application",
+    "meaning": [
+      "应用",
+      "申请"
+    ],
+    "paraphrases": [
+      "use"
+    ],
+    "collocations": [
+      "practical application"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "approach",
+    "meaning": [
+      "方法",
+      "途径",
+      "处理方式"
+    ],
+    "paraphrases": [
+      "method",
+      "way"
+    ],
+    "collocations": [
+      "an approach to"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "argument",
+    "meaning": [
+      "论点",
+      "论证",
+      "争论"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "make an argument"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "assignment",
+    "meaning": [
+      "任务",
+      "作业",
+      "分配的工作"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "complete an assignment",
+      "academic assignment",
+      "work assignment"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "assume",
+    "meaning": [
+      "假定",
+      "认为",
+      "承担"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "assume that"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "attempt",
+    "meaning": [
+      "试图",
+      "尝试"
+    ],
+    "paraphrases": [
+      "try",
+      "effort"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "avoid",
+    "meaning": [
+      "避免"
+    ],
+    "paraphrases": [
+      "evade",
+      "steer clear of"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "background",
+    "meaning": [
+      "背景",
+      "基础信息"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "background information"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "be associated with",
+    "meaning": [
+      "与……相关"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "be associated with risk"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "be liable to",
+    "meaning": [
+      "易于……"
+    ],
+    "paraphrases": [
+      "be likely to"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "be subject to",
+    "meaning": [
+      "受……支配"
+    ],
+    "paraphrases": [
+      "be governed by"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "beneficial",
+    "meaning": [
+      "有益的"
+    ],
+    "paraphrases": [
+      "helpful",
+      "advantageous",
+      "wholesome"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "case",
+    "meaning": [
+      "情况",
+      "案例",
+      "论据"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "in this case",
+      "case study"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "claim",
+    "meaning": [
+      "声称",
+      "主张",
+      "索赔"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "claim that"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "compensate",
+    "meaning": [
+      "补偿",
+      "弥补"
+    ],
+    "paraphrases": [
+      "make up for",
+      "offset"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "comply with",
+    "meaning": [
+      "照做",
+      "遵守"
+    ],
+    "paraphrases": [
+      "obey"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "component",
+    "meaning": [
+      "组成部分",
+      "部件",
+      "要素"
+    ],
+    "paraphrases": [
+      "part"
+    ],
+    "collocations": [
+      "key component"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "condition",
+    "meaning": [
+      "条件",
+      "状况",
+      "环境"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "under certain conditions"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "consequent",
+    "meaning": [
+      "随之发生的",
+      "结果"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "considerable",
+    "meaning": [
+      "相当大的",
+      "重要的"
+    ],
+    "paraphrases": [
+      "significant"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "constrain",
+    "meaning": [
+      "束缚",
+      "限制"
+    ],
+    "paraphrases": [
+      "restrict",
+      "limit"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "context",
+    "meaning": [
+      "语境",
+      "背景"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "in the context of"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "contribute to",
+    "meaning": [
+      "促成",
+      "有助于"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "contribute to growth"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "criteria",
+    "meaning": [
+      "标准"
+    ],
+    "paraphrases": [
+      "standard"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "deal with",
+    "meaning": [
+      "处理",
+      "涉及"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "deal with an issue"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "degree",
+    "meaning": [
+      "程度",
+      "学位",
+      "度数"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "to some degree"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "derive",
+    "meaning": [
+      "源自",
+      "获得",
+      "推导"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "derive from"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "despite",
+    "meaning": [
+      "尽管"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "detect",
+    "meaning": [
+      "查明",
+      "发现"
+    ],
+    "paraphrases": [
+      "find",
+      "identify",
+      "discover"
+    ],
+    "collocations": [
+      "detect a change",
+      "detect a signal"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "determine",
+    "meaning": [
+      "决定"
+    ],
+    "paraphrases": [
+      "decide"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "development",
+    "meaning": [
+      "发展",
+      "进展",
+      "新变化"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "recent development"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "distinguish",
+    "meaning": [
+      "区别",
+      "辨别"
+    ],
+    "paraphrases": [
+      "separate",
+      "differentiate"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "effect",
+    "meaning": [
+      "影响",
+      "效果",
+      "结果"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "effect on"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "emphasize",
+    "meaning": [
+      "强调",
+      "着重"
+    ],
+    "paraphrases": [
+      "focus on",
+      "stress"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "equal",
+    "meaning": [
+      "相等的",
+      "平等的",
+      "等同于"
+    ],
+    "paraphrases": [
+      "the same as",
+      "equivalent to"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "establish",
+    "meaning": [
+      "建立",
+      "确立",
+      "证实"
+    ],
+    "paraphrases": [
+      "accepted"
+    ],
+    "collocations": [
+      "establish a link"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "evidence",
+    "meaning": [
+      "证据",
+      "迹象"
+    ],
+    "paraphrases": [
+      "proof"
+    ],
+    "collocations": [
+      "evidence of",
+      "evidence suggests"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "extent",
+    "meaning": [
+      "程度",
+      "范围"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "to a large extent"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "factor",
+    "meaning": [
+      "因素",
+      "要素"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "contributing factor"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "feasible",
+    "meaning": [
+      "可行的"
+    ],
+    "paraphrases": [
+      "realistic",
+      "viable"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "feature",
+    "meaning": [
+      "特征",
+      "以……为特色"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "key feature"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "field",
+    "meaning": [
+      "领域",
+      "学科",
+      "研究范围"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "in the field of"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "figure",
+    "meaning": [
+      "数字",
+      "数据",
+      "图表",
+      "人物"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "Figure 1",
+      "a significant figure"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "form",
+    "meaning": [
+      "形式",
+      "形态",
+      "形成"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "in the form of"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "function",
+    "meaning": [
+      "功能",
+      "作用",
+      "运作"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "function of"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "fundamental",
+    "meaning": [
+      "基本的",
+      "基础的"
+    ],
+    "paraphrases": [
+      "basic",
+      "foundational"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "give rise to",
+    "meaning": [
+      "导致",
+      "引起"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "give rise to problems"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "grant",
+    "meaning": [
+      "拨款",
+      "授予"
+    ],
+    "paraphrases": [
+      "offer"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "guarantee",
+    "meaning": [
+      "保证",
+      "担保"
+    ],
+    "paraphrases": [
+      "assure"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "hence",
+    "meaning": [
+      "因此",
+      "由此"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "hinder",
+    "meaning": [
+      "阻碍"
+    ],
+    "paraphrases": [
+      "impede",
+      "hamper"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "ignore",
+    "meaning": [
+      "忽视",
+      "不顾"
+    ],
+    "paraphrases": [
+      "overlook",
+      "disregard"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "impact",
+    "meaning": [
+      "影响",
+      "冲击"
+    ],
+    "paraphrases": [
+      "influence"
+    ],
+    "collocations": [
+      "impact on"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "impair",
+    "meaning": [
+      "削弱",
+      "减少"
+    ],
+    "paraphrases": [
+      "damage",
+      "weaken"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "in accordance with",
+    "meaning": [
+      "依照",
+      "与……一致"
+    ],
+    "paraphrases": [
+      "according to"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "in terms of",
+    "meaning": [
+      "就……而言"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "in terms of cost"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "in the absence of",
+    "meaning": [
+      "在缺少……时"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "in the absence of evidence"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "indicate",
+    "meaning": [
+      "表明",
+      "指出"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "data indicate that"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "induce",
+    "meaning": [
+      "引起",
+      "引诱"
+    ],
+    "paraphrases": [
+      "cause",
+      "lead to"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "integrate",
+    "meaning": [
+      "使……成整体"
+    ],
+    "paraphrases": [
+      "combine",
+      "incorporate"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "involve",
+    "meaning": [
+      "涉及",
+      "包含",
+      "使参与"
+    ],
+    "paraphrases": [
+      "include"
+    ],
+    "collocations": [
+      "involve doing"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "issue",
+    "meaning": [
+      "问题",
+      "议题",
+      "发布"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "address an issue"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "lead to",
+    "meaning": [
+      "导致"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "lead to a decline"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "level",
+    "meaning": [
+      "水平",
+      "层级",
+      "数量"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "at a high level"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "maintain",
+    "meaning": [
+      "维持",
+      "保持",
+      "主张"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "maintain that"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "matter",
+    "meaning": [
+      "事情",
+      "问题",
+      "物质"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "a matter of",
+      "subject matter"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "measure",
+    "meaning": [
+      "测量"
+    ],
+    "paraphrases": [
+      "quantify",
+      "assess"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "minimize",
+    "meaning": [
+      "最小化",
+      "使……减少到最少"
+    ],
+    "paraphrases": [
+      "reduce",
+      "keep to a minimum"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "nevertheless",
+    "meaning": [
+      "然而",
+      "尽管如此"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "nonetheless",
+    "meaning": [
+      "尽管如此"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "notwithstanding",
+    "meaning": [
+      "尽管"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "obtain",
+    "meaning": [
+      "获得"
+    ],
+    "paraphrases": [
+      "get"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "occur",
+    "meaning": [
+      "发生",
+      "出现"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "occur in"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "operation",
+    "meaning": [
+      "运作",
+      "操作",
+      "手术"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "operation of"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "option",
+    "meaning": [
+      "选择"
+    ],
+    "paraphrases": [
+      "choice"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "paper",
+    "meaning": [
+      "论文",
+      "文章",
+      "纸张"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "research paper"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "pattern",
+    "meaning": [
+      "模式",
+      "规律",
+      "分布特征"
+    ],
+    "paraphrases": [
+      "recurring form"
+    ],
+    "collocations": [
+      "a pattern of",
+      "behaviour pattern"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "period",
+    "meaning": [
+      "时期",
+      "阶段",
+      "一段时间"
+    ],
+    "paraphrases": [
+      "phase",
+      "stage"
+    ],
+    "collocations": [
+      "over a period of",
+      "during this period"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "point",
+    "meaning": [
+      "观点",
+      "要点",
+      "程度"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "point out",
+      "at this point"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "practice",
+    "meaning": [
+      "实践",
+      "惯例",
+      "练习"
+    ],
+    "paraphrases": [
+      "custom",
+      "repeated exercise"
+    ],
+    "collocations": [
+      "in practice",
+      "common practice"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "primary",
+    "meaning": [
+      "主要的",
+      "首要的",
+      "初级的"
+    ],
+    "paraphrases": [
+      "principal",
+      "main"
+    ],
+    "collocations": [
+      "primary cause",
+      "primary source"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "process",
+    "meaning": [
+      "过程",
+      "处理"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "process of"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "proposal",
+    "meaning": [
+      "提议",
+      "方案",
+      "研究计划"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "research proposal"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "range",
+    "meaning": [
+      "范围",
+      "幅度",
+      "系列"
+    ],
+    "paraphrases": [
+      "scope"
+    ],
+    "collocations": [
+      "a range of"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "rate",
+    "meaning": [
+      "比率",
+      "速度",
+      "评估"
+    ],
+    "paraphrases": [
+      "rank",
+      "evaluate"
+    ],
+    "collocations": [
+      "growth rate"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "rather than",
+    "meaning": [
+      "而不是",
+      "而非"
+    ],
+    "paraphrases": [
+      "instead of",
+      "as opposed to"
+    ],
+    "collocations": [
+      "choose A rather than B"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "recognize",
+    "meaning": [
+      "认出",
+      "识别",
+      "承认"
+    ],
+    "paraphrases": [
+      "identify",
+      "acknowledge (a fact)",
+      "realise (a fact)"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "reflect",
+    "meaning": [
+      "反映",
+      "体现",
+      "思考"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "reflect changes"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "relevant",
+    "meaning": [
+      "相关的",
+      "切题的"
+    ],
+    "paraphrases": [
+      "pertinent"
+    ],
+    "collocations": [
+      "relevant to"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "rely on",
+    "meaning": [
+      "依靠",
+      "依赖"
+    ],
+    "paraphrases": [
+      "depend on"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "represent",
+    "meaning": [
+      "代表",
+      "表示",
+      "体现"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "represent a change"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "require",
+    "meaning": [
+      "要求",
+      "需要"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "require doing"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "resemble",
+    "meaning": [
+      "像",
+      "与……相似"
+    ],
+    "paraphrases": [
+      "be similar to",
+      "look like"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "response",
+    "meaning": [
+      "回应",
+      "反应"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "in response to"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "result",
+    "meaning": [
+      "结果",
+      "导致"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "result in",
+      "as a result"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "retain",
+    "meaning": [
+      "记住"
+    ],
+    "paraphrases": [
+      "keep"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "reveal",
+    "meaning": [
+      "揭示",
+      "显示"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "findings reveal"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "role",
+    "meaning": [
+      "作用",
+      "角色"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "play a role in"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "scale",
+    "meaning": [
+      "规模",
+      "尺度",
+      "范围"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "on a global scale",
+      "at scale"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "shift",
+    "meaning": [
+      "转变",
+      "变化"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "shift from ... to ..."
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "significant",
+    "meaning": [
+      "重要的",
+      "显著的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "source",
+    "meaning": [
+      "来源",
+      "资料来源"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "source of",
+      "data source"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "specific",
+    "meaning": [
+      "明确的",
+      "特殊的"
+    ],
+    "paraphrases": [
+      "detailed",
+      "particular"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "state",
+    "meaning": [
+      "状态",
+      "国家",
+      "陈述"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "state that",
+      "current state"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "structure",
+    "meaning": [
+      "结构",
+      "构造"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "structure of"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "study",
+    "meaning": [
+      "研究",
+      "学习"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "a study of"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "subject",
+    "meaning": [
+      "主题",
+      "研究对象",
+      "受试者"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "research subject",
+      "be subject to"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "suggest",
+    "meaning": [
+      "表明",
+      "暗示",
+      "建议"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "results suggest that"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "term",
+    "meaning": [
+      "术语",
+      "期限",
+      "条件"
+    ],
+    "paraphrases": [
+      "word"
+    ],
+    "collocations": [
+      "in terms of",
+      "long-term"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "thanks to",
+    "meaning": [
+      "由于",
+      "因为",
+      "多亏"
+    ],
+    "paraphrases": [
+      "due to",
+      "owing to",
+      "because of",
+      "as a result of"
+    ],
+    "collocations": [
+      "thanks to advances in ..."
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "thereby",
+    "meaning": [
+      "因而",
+      "从而"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "threaten",
+    "meaning": [
+      "威胁",
+      "危及"
+    ],
+    "paraphrases": [
+      "endanger",
+      "put at risk"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "trait",
+    "meaning": [
+      "特性",
+      "特征"
+    ],
+    "paraphrases": [
+      "characteristic",
+      "feature"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "transmit",
+    "meaning": [
+      "传达",
+      "传输"
+    ],
+    "paraphrases": [
+      "pass",
+      "send",
+      "transfer"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "trend",
+    "meaning": [
+      "趋势"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "trend towards"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "underlie",
+    "meaning": [
+      "成为……基础"
+    ],
+    "paraphrases": [
+      "form the basis of",
+      "be the basis for"
+    ],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "value",
+    "meaning": [
+      "价值",
+      "数值",
+      "重视"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "numerical value"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "volume",
+    "meaning": [
+      "数量",
+      "体积",
+      "卷"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "a large volume of"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "whereas",
+    "meaning": [
+      "然而",
+      "鉴于（法律语境）"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "S"
+  },
+  {
+    "word": "work",
+    "meaning": [
+      "工作",
+      "研究成果",
+      "起作用"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "previous work",
+      "work on"
+    ],
+    "priority": "S"
+  },
+  {
+    "word": "a lack of",
+    "meaning": [
+      "缺乏"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "a lack of evidence"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "abandon",
+    "meaning": [
+      "放弃",
+      "遗弃"
+    ],
+    "paraphrases": [
+      "give up",
+      "desert"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "abstract",
+    "meaning": [
+      "抽象的",
+      "摘要"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "academy",
+    "meaning": [
+      "学院",
+      "学术界"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "accelerate",
+    "meaning": [
+      "加速",
+      "促进"
+    ],
+    "paraphrases": [
+      "speed up"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "access",
+    "meaning": [
+      "获取",
+      "进入",
+      "使用权"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "accommodate",
+    "meaning": [
+      "容纳",
+      "适应",
+      "满足"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "accompany",
+    "meaning": [
+      "陪同",
+      "伴随"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "accumulate",
+    "meaning": [
+      "积累",
+      "积聚"
+    ],
+    "paraphrases": [
+      "gather"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "accurate",
+    "meaning": [
+      "准确的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "achieve",
+    "meaning": [
+      "达到",
+      "实现"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "acknowledge",
+    "meaning": [
+      "承认",
+      "致谢"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "acquire",
+    "meaning": [
+      "获得",
+      "习得"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "adapt",
+    "meaning": [
+      "适应",
+      "改编"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "adapt to",
+    "meaning": [
+      "使适应"
+    ],
+    "paraphrases": [
+      "adjust to"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "adequate",
+    "meaning": [
+      "足够的",
+      "适当的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "adjacent",
+    "meaning": [
+      "邻近的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "administrate",
+    "meaning": [
+      "管理",
+      "执行"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "adult",
+    "meaning": [
+      "成年人",
+      "成年的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "advocate",
+    "meaning": [
+      "提倡",
+      "倡导者"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "affect",
+    "meaning": [
+      "影响"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "aggregate",
+    "meaning": [
+      "总计",
+      "集合的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "aid",
+    "meaning": [
+      "援助",
+      "帮助"
+    ],
+    "paraphrases": [
+      "help"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "allocate",
+    "meaning": [
+      "分配"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "alter",
+    "meaning": [
+      "改变",
+      "修改"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "ambiguous",
+    "meaning": [
+      "模糊的",
+      "有歧义的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "amend",
+    "meaning": [
+      "修订",
+      "修改"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "analogy",
+    "meaning": [
+      "类比",
+      "相似"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "ancient",
+    "meaning": [
+      "古代的",
+      "古老的"
+    ],
+    "paraphrases": [
+      "very old",
+      "from ancient times"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "annual",
+    "meaning": [
+      "年度的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "anticipate",
+    "meaning": [
+      "预期",
+      "预料"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "apparent",
+    "meaning": [
+      "明显的",
+      "表面上的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "append",
+    "meaning": [
+      "附加",
+      "添加"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "appreciate",
+    "meaning": [
+      "理解",
+      "欣赏",
+      "感激"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "appropriate",
+    "meaning": [
+      "适当的",
+      "合适的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "approximate",
+    "meaning": [
+      "大约的",
+      "近似"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "arbitrary",
+    "meaning": [
+      "任意的",
+      "武断的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "area",
+    "meaning": [
+      "领域",
+      "区域",
+      "面积"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "artificial",
+    "meaning": [
+      "人造的",
+      "仿造的"
+    ],
+    "paraphrases": [
+      "synthetic",
+      "man-made"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "aspect",
+    "meaning": [
+      "方面"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "assemble",
+    "meaning": [
+      "集合",
+      "组装"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "assess",
+    "meaning": [
+      "评估"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "assign",
+    "meaning": [
+      "分配",
+      "指派"
+    ],
+    "paraphrases": [
+      "allocate"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "assist",
+    "meaning": [
+      "协助",
+      "帮助"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "assure",
+    "meaning": [
+      "保证",
+      "使确信"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "attach",
+    "meaning": [
+      "附加",
+      "使依附"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "attain",
+    "meaning": [
+      "达到",
+      "获得"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "attitude",
+    "meaning": [
+      "看法",
+      "态度"
+    ],
+    "paraphrases": [
+      "view"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "attribute",
+    "meaning": [
+      "属性",
+      "归因于"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "author",
+    "meaning": [
+      "作者",
+      "撰写"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "authority",
+    "meaning": [
+      "当局",
+      "权威"
+    ],
+    "paraphrases": [
+      "official body"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "automate",
+    "meaning": [
+      "使自动化"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "available",
+    "meaning": [
+      "可获得的",
+      "可用的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "aware",
+    "meaning": [
+      "意识到的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "bacteria",
+    "meaning": [
+      "细菌（复数）"
+    ],
+    "paraphrases": [
+      "germs (informal)"
+    ],
+    "collocations": [
+      "beneficial bacteria",
+      "harmful bacteria"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "be capable of doing",
+    "meaning": [
+      "能够做"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "be capable of producing"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "be prone to",
+    "meaning": [
+      "易于",
+      "有……倾向"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "be prone to error"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "behalf",
+    "meaning": [
+      "代表",
+      "利益"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "benefit",
+    "meaning": [
+      "益处",
+      "使受益"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "bias",
+    "meaning": [
+      "偏差",
+      "偏见"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "bond",
+    "meaning": [
+      "联系",
+      "债券",
+      "黏合"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "brief",
+    "meaning": [
+      "简短的",
+      "摘要"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "budget",
+    "meaning": [
+      "预算"
+    ],
+    "paraphrases": [
+      "spending plan",
+      "financial plan"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "bulk",
+    "meaning": [
+      "大部分",
+      "体积"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "capable",
+    "meaning": [
+      "有能力的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "capacity",
+    "meaning": [
+      "容量"
+    ],
+    "paraphrases": [
+      "volume"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "carry out",
+    "meaning": [
+      "执行",
+      "开展"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "carry out research"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "category",
+    "meaning": [
+      "类别"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "cease",
+    "meaning": [
+      "停止"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "challenge",
+    "meaning": [
+      "挑战",
+      "质疑"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "channel",
+    "meaning": [
+      "渠道",
+      "频道"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "chapter",
+    "meaning": [
+      "章节"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "chart",
+    "meaning": [
+      "图表",
+      "绘制"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "chemical",
+    "meaning": [
+      "化学的",
+      "化学物质"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "chronic",
+    "meaning": [
+      "慢性的",
+      "长期性的"
+    ],
+    "paraphrases": [
+      "lasting"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "circumstance",
+    "meaning": [
+      "情况",
+      "环境"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "cite",
+    "meaning": [
+      "引用",
+      "引证"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "civil",
+    "meaning": [
+      "公民的",
+      "民事的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "clarify",
+    "meaning": [
+      "澄清",
+      "阐明"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "classic",
+    "meaning": [
+      "经典的",
+      "典型的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "clause",
+    "meaning": [
+      "条款",
+      "从句"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "code",
+    "meaning": [
+      "代码",
+      "规范"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "cognitive",
+    "meaning": [
+      "认知的"
+    ],
+    "paraphrases": [
+      "relating to thinking"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "coherent",
+    "meaning": [
+      "连贯的",
+      "一致的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "coin",
+    "meaning": [
+      "创造"
+    ],
+    "paraphrases": [
+      "invent (a word or term)",
+      "use for the first time"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "coincide",
+    "meaning": [
+      "同时发生",
+      "一致"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "collapse",
+    "meaning": [
+      "崩溃",
+      "倒塌"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "colleague",
+    "meaning": [
+      "同事"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "come across",
+    "meaning": [
+      "偶然遇到",
+      "给人……印象"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "come across a term"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "commence",
+    "meaning": [
+      "开始"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "comment",
+    "meaning": [
+      "评论",
+      "意见v.评论"
+    ],
+    "paraphrases": [
+      "remark"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "commission",
+    "meaning": [
+      "委员会",
+      "委托",
+      "佣金"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "commit",
+    "meaning": [
+      "承诺",
+      "投入",
+      "犯（罪）"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "commodity",
+    "meaning": [
+      "商品"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "communicate",
+    "meaning": [
+      "交流",
+      "传达"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "community",
+    "meaning": [
+      "社区",
+      "群体"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "compatible",
+    "meaning": [
+      "兼容的",
+      "相容的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "compile",
+    "meaning": [
+      "汇编",
+      "编制"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "complement",
+    "meaning": [
+      "补充",
+      "补足"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "complex",
+    "meaning": [
+      "复杂的",
+      "综合体"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "compound",
+    "meaning": [
+      "化合物",
+      "复合的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "comprehensive",
+    "meaning": [
+      "全面的",
+      "综合的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "comprise",
+    "meaning": [
+      "包含",
+      "由……组成"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "compute",
+    "meaning": [
+      "计算"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "conceive",
+    "meaning": [
+      "构想",
+      "设想"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "concentrate",
+    "meaning": [
+      "专心于",
+      "集中"
+    ],
+    "paraphrases": [
+      "focus"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "concept",
+    "meaning": [
+      "概念"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "conclude",
+    "meaning": [
+      "得出结论",
+      "结束"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "concurrent",
+    "meaning": [
+      "同时发生的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "conduct",
+    "meaning": [
+      "实施",
+      "进行",
+      "行为"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "confer",
+    "meaning": [
+      "授予",
+      "给予"
+    ],
+    "paraphrases": [
+      "grant"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "confidential",
+    "meaning": [
+      "机密的",
+      "秘密的"
+    ],
+    "paraphrases": [
+      "undisclosed",
+      "secret",
+      "hidden"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "confine",
+    "meaning": [
+      "限制",
+      "局限"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "confirm",
+    "meaning": [
+      "证实",
+      "确认"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "conflict",
+    "meaning": [
+      "冲突",
+      "矛盾"
+    ],
+    "paraphrases": [
+      "clash"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "conform",
+    "meaning": [
+      "符合",
+      "遵守"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "conscious",
+    "meaning": [
+      "有意识的",
+      "神志清醒的"
+    ],
+    "paraphrases": [
+      "aware",
+      "knowing"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "consent",
+    "meaning": [
+      "同意",
+      "许可"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "consist",
+    "meaning": [
+      "由……组成",
+      "在于"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "constant",
+    "meaning": [
+      "持续的",
+      "常数"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "constitute",
+    "meaning": [
+      "构成",
+      "组成"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "construct",
+    "meaning": [
+      "构建",
+      "建造"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "consult",
+    "meaning": [
+      "查阅",
+      "商量",
+      "请教",
+      "咨询"
+    ],
+    "paraphrases": [
+      "seek advice from"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "consume",
+    "meaning": [
+      "消耗",
+      "消费"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "contact",
+    "meaning": [
+      "联系",
+      "接触"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "contemporary",
+    "meaning": [
+      "当代的",
+      "同时代的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "contract",
+    "meaning": [
+      "合同",
+      "收缩"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "contradict",
+    "meaning": [
+      "反驳",
+      "与……矛盾"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "contrary",
+    "meaning": [
+      "相反的",
+      "反面"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "contrast",
+    "meaning": [
+      "对比",
+      "差异"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "contribute",
+    "meaning": [
+      "贡献",
+      "促成"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "controversy",
+    "meaning": [
+      "争议"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "convene",
+    "meaning": [
+      "召集",
+      "召开"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "convention",
+    "meaning": [
+      "手法",
+      "习俗"
+    ],
+    "paraphrases": [
+      "custom",
+      "tradition"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "converse",
+    "meaning": [
+      "交谈",
+      "相反的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "convert",
+    "meaning": [
+      "转换",
+      "转化"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "convince",
+    "meaning": [
+      "说服"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "cooperate",
+    "meaning": [
+      "合作",
+      "协作"
+    ],
+    "paraphrases": [
+      "collaboration",
+      "working together"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "coordinate",
+    "meaning": [
+      "协调",
+      "组织"
+    ],
+    "paraphrases": [
+      "organize",
+      "integrate"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "core",
+    "meaning": [
+      "核心"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "corporate",
+    "meaning": [
+      "公司的",
+      "企业的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "correspond",
+    "meaning": [
+      "相符",
+      "通信"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "couple",
+    "meaning": [
+      "一对",
+      "若干",
+      "连接"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "create",
+    "meaning": [
+      "创建",
+      "产生"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "credit",
+    "meaning": [
+      "信用",
+      "学分",
+      "认可"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "crucial",
+    "meaning": [
+      "关键的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "cue",
+    "meaning": [
+      "线索"
+    ],
+    "paraphrases": [
+      "hint",
+      "clue"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "culture",
+    "meaning": [
+      "文化",
+      "培养"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "currency",
+    "meaning": [
+      "货币",
+      "流通"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "curriculum",
+    "meaning": [
+      "课程"
+    ],
+    "paraphrases": [
+      "syllabus",
+      "course of study"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "cycle",
+    "meaning": [
+      "周期",
+      "循环"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "data",
+    "meaning": [
+      "数据",
+      "资料"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "debate",
+    "meaning": [
+      "辩论",
+      "讨论"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "decade",
+    "meaning": [
+      "十年"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "decline",
+    "meaning": [
+      "下降",
+      "拒绝"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "deduce",
+    "meaning": [
+      "推断"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "deficiency",
+    "meaning": [
+      "缺陷",
+      "缺点"
+    ],
+    "paraphrases": [
+      "lack",
+      "shortage"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "define",
+    "meaning": [
+      "定义",
+      "界定"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "definite",
+    "meaning": [
+      "明确的",
+      "确定的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "delivery",
+    "meaning": [
+      "递送",
+      "交付",
+      "分娩",
+      "表达方式"
+    ],
+    "paraphrases": [
+      "act of delivering"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "demanding",
+    "meaning": [
+      "苛求的"
+    ],
+    "paraphrases": [
+      "challenging"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "demonstrate",
+    "meaning": [
+      "证明",
+      "展示"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "denote",
+    "meaning": [
+      "表示",
+      "指代"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "deny",
+    "meaning": [
+      "否认",
+      "拒绝给予"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "depress",
+    "meaning": [
+      "使沮丧",
+      "压低"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "design",
+    "meaning": [
+      "设计",
+      "方案"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "deviate",
+    "meaning": [
+      "偏离"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "device",
+    "meaning": [
+      "设备",
+      "方法"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "devote",
+    "meaning": [
+      "投入",
+      "致力于"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "differ",
+    "meaning": [
+      "使……相异",
+      "使……不同"
+    ],
+    "paraphrases": [
+      "vary"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "differentiate",
+    "meaning": [
+      "区分",
+      "使不同"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "dimension",
+    "meaning": [
+      "维度",
+      "方面"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "diminish",
+    "meaning": [
+      "减少",
+      "削弱"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "discipline",
+    "meaning": [
+      "学科",
+      "纪律"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "academic discipline"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "discrete",
+    "meaning": [
+      "分离的",
+      "离散的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "discriminate",
+    "meaning": [
+      "区分",
+      "歧视"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "displace",
+    "meaning": [
+      "取代",
+      "使移位"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "display",
+    "meaning": [
+      "显示"
+    ],
+    "paraphrases": [
+      "show"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "dispose",
+    "meaning": [
+      "处理",
+      "布置",
+      "使倾向"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "distinct",
+    "meaning": [
+      "不同的",
+      "明显的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "distort",
+    "meaning": [
+      "歪曲",
+      "扭曲"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "distribute",
+    "meaning": [
+      "分配",
+      "分发"
+    ],
+    "paraphrases": [
+      "spread"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "diverse",
+    "meaning": [
+      "多样的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "diversity",
+    "meaning": [
+      "多样性",
+      "差异"
+    ],
+    "paraphrases": [
+      "variety",
+      "range"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "document",
+    "meaning": [
+      "文件",
+      "文献"
+    ],
+    "paraphrases": [
+      "documents"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "domain",
+    "meaning": [
+      "领域"
+    ],
+    "paraphrases": [
+      "field"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "domestic",
+    "meaning": [
+      "家庭的",
+      "国内的"
+    ],
+    "paraphrases": [
+      "national",
+      "within the home country"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "dominate",
+    "meaning": [
+      "支配",
+      "占主导"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "donate",
+    "meaning": [
+      "捐赠"
+    ],
+    "paraphrases": [
+      "give"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "draft",
+    "meaning": [
+      "草稿",
+      "起草"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "drama",
+    "meaning": [
+      "戏剧",
+      "戏剧性事件"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "duration",
+    "meaning": [
+      "持续时间"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "dynamic",
+    "meaning": [
+      "动力",
+      "动态变化",
+      "相互作用方式"
+    ],
+    "paraphrases": [
+      "driving forces",
+      "processes that drive change"
+    ],
+    "collocations": [
+      "social dynamics",
+      "market dynamics"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "economy",
+    "meaning": [
+      "经济",
+      "经济体"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "edit",
+    "meaning": [
+      "编辑"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "element",
+    "meaning": [
+      "要素",
+      "元素"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "eliminate",
+    "meaning": [
+      "消除",
+      "排除"
+    ],
+    "paraphrases": [
+      "remove"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "emerge",
+    "meaning": [
+      "出现",
+      "显现"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "emphasis",
+    "meaning": [
+      "强调",
+      "重点"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "empirical",
+    "meaning": [
+      "实证的",
+      "经验的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "enable",
+    "meaning": [
+      "使能够"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "encounter",
+    "meaning": [
+      "遇到",
+      "遭遇"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "energy",
+    "meaning": [
+      "能量",
+      "精力"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "enforce",
+    "meaning": [
+      "实施",
+      "强制执行"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "enhance",
+    "meaning": [
+      "提高",
+      "增强"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "enormous",
+    "meaning": [
+      "庞大的巨大的"
+    ],
+    "paraphrases": [
+      "massive",
+      "large"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "ensure",
+    "meaning": [
+      "确保"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "entity",
+    "meaning": [
+      "实体",
+      "独立存在物"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "environment",
+    "meaning": [
+      "环境"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "equate",
+    "meaning": [
+      "等同",
+      "使相等"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "equip",
+    "meaning": [
+      "配备",
+      "使具备"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "equivalent",
+    "meaning": [
+      "等同物",
+      "等价的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "erode",
+    "meaning": [
+      "侵蚀"
+    ],
+    "paraphrases": [
+      "wear away",
+      "gradually damage"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "error",
+    "meaning": [
+      "错误",
+      "误差"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "estate",
+    "meaning": [
+      "房地产"
+    ],
+    "paraphrases": [
+      "property"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "estimate",
+    "meaning": [
+      "估计",
+      "估算"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "ethic",
+    "meaning": [
+      "道德准则",
+      "伦理"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "ethnic",
+    "meaning": [
+      "民族的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "evaluate",
+    "meaning": [
+      "评估",
+      "评价"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "eventual",
+    "meaning": [
+      "最终的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "evident",
+    "meaning": [
+      "明显的",
+      "显而易见的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "evolve",
+    "meaning": [
+      "进化",
+      "发展",
+      "逐渐形成"
+    ],
+    "paraphrases": [
+      "develop"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "exaggerate",
+    "meaning": [
+      "夸大",
+      "夸张"
+    ],
+    "paraphrases": [
+      "overstate"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "exceed",
+    "meaning": [
+      "超过"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "exchange",
+    "meaning": [
+      "交换"
+    ],
+    "paraphrases": [
+      "trade",
+      "swap"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "exclude",
+    "meaning": [
+      "排除",
+      "不包括"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "exclusive",
+    "meaning": [
+      "独有的",
+      "排外的",
+      "专一的"
+    ],
+    "paraphrases": [
+      "sole"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "exhibit",
+    "meaning": [
+      "展示",
+      "展品"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "expand",
+    "meaning": [
+      "扩大",
+      "展开"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "expert",
+    "meaning": [
+      "专家",
+      "专业的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "expertise",
+    "meaning": [
+      "专门技术"
+    ],
+    "paraphrases": [
+      "specialist knowledge",
+      "specialist skill"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "explicit",
+    "meaning": [
+      "明确的"
+    ],
+    "paraphrases": [
+      "clear"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "exploit",
+    "meaning": [
+      "开发",
+      "利用"
+    ],
+    "paraphrases": [
+      "use"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "export",
+    "meaning": [
+      "出口",
+      "输出"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "expose",
+    "meaning": [
+      "暴露",
+      "揭示"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "external",
+    "meaning": [
+      "外部的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "extinct",
+    "meaning": [
+      "灭绝的",
+      "绝种的"
+    ],
+    "paraphrases": [
+      "no longer existing",
+      "died out"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "extract",
+    "meaning": [
+      "摘录v.提取"
+    ],
+    "paraphrases": [
+      "remove"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "facilitate",
+    "meaning": [
+      "促进",
+      "使便利"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "faculty",
+    "meaning": [
+      "能力",
+      "才能",
+      "全体教员"
+    ],
+    "paraphrases": [
+      "ability"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "federal",
+    "meaning": [
+      "联邦的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "fee",
+    "meaning": [
+      "费用"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "fertiliser",
+    "meaning": [
+      "肥料",
+      "化肥"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "organic fertiliser",
+      "chemical fertiliser",
+      "apply fertiliser"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "file",
+    "meaning": [
+      "文件",
+      "归档",
+      "提交"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "final",
+    "meaning": [
+      "最终的",
+      "期末"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "finance",
+    "meaning": [
+      "金融",
+      "资金",
+      "资助"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "finite",
+    "meaning": [
+      "有限的"
+    ],
+    "paraphrases": [
+      "limited"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "flexible",
+    "meaning": [
+      "灵活的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "fluctuate",
+    "meaning": [
+      "波动"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "focus",
+    "meaning": [
+      "焦点",
+      "集中"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "format",
+    "meaning": [
+      "格式"
+    ],
+    "paraphrases": [
+      "structure"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "formula",
+    "meaning": [
+      "公式",
+      "方案"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "forthcoming",
+    "meaning": [
+      "即将到来的",
+      "乐于提供信息的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "found",
+    "meaning": [
+      "建立",
+      "创办"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "foundation",
+    "meaning": [
+      "基础",
+      "基金会"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "fragile",
+    "meaning": [
+      "脆弱的"
+    ],
+    "paraphrases": [
+      "delicate"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "framework",
+    "meaning": [
+      "框架"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "fund",
+    "meaning": [
+      "基金",
+      "资助"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "furthermore",
+    "meaning": [
+      "此外"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "gender",
+    "meaning": [
+      "性别",
+      "社会性别"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "generate",
+    "meaning": [
+      "产生",
+      "生成"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "generation",
+    "meaning": [
+      "一代",
+      "产生"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "globe",
+    "meaning": [
+      "全球",
+      "地球"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "goal",
+    "meaning": [
+      "目标"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "grade",
+    "meaning": [
+      "等级",
+      "成绩",
+      "评分"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "guideline",
+    "meaning": [
+      "指南",
+      "指导原则"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "halt",
+    "meaning": [
+      "停止"
+    ],
+    "paraphrases": [
+      "stop",
+      "quit"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "have access to",
+    "meaning": [
+      "有权使用",
+      "可接触"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "have access to data"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "hierarchy",
+    "meaning": [
+      "层级",
+      "等级制度"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "highlight",
+    "meaning": [
+      "强调",
+      "突出"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "hold off doing",
+    "meaning": [
+      "推迟做"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "hold off making a decision"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "hypothesis",
+    "meaning": [
+      "假设"
+    ],
+    "paraphrases": [
+      "assumption"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "identical",
+    "meaning": [
+      "完全相同的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "identify",
+    "meaning": [
+      "识别",
+      "确定"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "ideology",
+    "meaning": [
+      "意识形态"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "ignorant",
+    "meaning": [
+      "无知的",
+      "不了解的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "illustrate",
+    "meaning": [
+      "说明",
+      "阐明"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "image",
+    "meaning": [
+      "图像",
+      "形象"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "imitate",
+    "meaning": [
+      "模仿"
+    ],
+    "paraphrases": [
+      "mimic",
+      "copy"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "immigrate",
+    "meaning": [
+      "移民入境"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "immunity",
+    "meaning": [
+      "免疫力"
+    ],
+    "paraphrases": [
+      "resistance"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "imperative",
+    "meaning": [
+      "必要的",
+      "紧迫的",
+      "必须做的事"
+    ],
+    "paraphrases": [
+      "essential",
+      "necessary",
+      "urgent"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "implement",
+    "meaning": [
+      "实施",
+      "执行"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "implicate",
+    "meaning": [
+      "牵涉",
+      "意味着"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "implicit",
+    "meaning": [
+      "含蓄的",
+      "隐含的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "imply",
+    "meaning": [
+      "暗示",
+      "意味着"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "impose",
+    "meaning": [
+      "强加",
+      "征收"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "incentive",
+    "meaning": [
+      "刺激",
+      "鼓励",
+      "动机"
+    ],
+    "paraphrases": [
+      "motivation",
+      "stimulus"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "incidence",
+    "meaning": [
+      "发生率",
+      "影响范围"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "incline",
+    "meaning": [
+      "倾向",
+      "斜坡"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "income",
+    "meaning": [
+      "收入"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "incorporate",
+    "meaning": [
+      "纳入",
+      "合并"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "index",
+    "meaning": [
+      "指数",
+      "索引"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "individual",
+    "meaning": [
+      "个人",
+      "个体",
+      "个别的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "inevitable",
+    "meaning": [
+      "不可避免的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "infer",
+    "meaning": [
+      "推断"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "infrastructure",
+    "meaning": [
+      "基础设施"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "inherent",
+    "meaning": [
+      "固有的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "inherit",
+    "meaning": [
+      "继承"
+    ],
+    "paraphrases": [
+      "receive from a previous generation"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "inhibit",
+    "meaning": [
+      "抑制",
+      "阻碍"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "initial",
+    "meaning": [
+      "最初的",
+      "首字母"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "initiate",
+    "meaning": [
+      "发起",
+      "开始"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "injure",
+    "meaning": [
+      "伤害"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "innate",
+    "meaning": [
+      "天生的",
+      "内在的",
+      "直觉的"
+    ],
+    "paraphrases": [
+      "inborn",
+      "inherent"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "innovate",
+    "meaning": [
+      "创新"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "input",
+    "meaning": [
+      "输入",
+      "投入"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "insert",
+    "meaning": [
+      "插入"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "insight",
+    "meaning": [
+      "洞察",
+      "深刻理解"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "inspect",
+    "meaning": [
+      "检查",
+      "审查"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "instance",
+    "meaning": [
+      "实例",
+      "情况"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "institute",
+    "meaning": [
+      "机构",
+      "建立",
+      "制定"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "instruct",
+    "meaning": [
+      "指示",
+      "教授"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "integral",
+    "meaning": [
+      "不可或缺的",
+      "完整的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "integrity",
+    "meaning": [
+      "完整性",
+      "正直"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "intelligent",
+    "meaning": [
+      "智能的",
+      "聪明的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "intense",
+    "meaning": [
+      "强烈的",
+      "紧张的",
+      "热情的"
+    ],
+    "paraphrases": [
+      "strong"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "interact",
+    "meaning": [
+      "相互作用",
+      "互动"
+    ],
+    "paraphrases": [
+      "interplay"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "intermediate",
+    "meaning": [
+      "中间的",
+      "中级的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "internal",
+    "meaning": [
+      "内部的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "interpret",
+    "meaning": [
+      "解释",
+      "理解"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "interval",
+    "meaning": [
+      "间隔",
+      "区间"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "intervene",
+    "meaning": [
+      "干预",
+      "介入"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "intrinsic",
+    "meaning": [
+      "内在的",
+      "固有的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "invest",
+    "meaning": [
+      "投资",
+      "投入"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "investigate",
+    "meaning": [
+      "调查",
+      "研究"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "invoke",
+    "meaning": [
+      "引用",
+      "调用",
+      "唤起"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "isolate",
+    "meaning": [
+      "使隔离",
+      "使孤立"
+    ],
+    "paraphrases": [
+      "separate"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "it turns out that",
+    "meaning": [
+      "结果表明"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "it turns out that"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "item",
+    "meaning": [
+      "项目",
+      "条目"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "job",
+    "meaning": [
+      "工作",
+      "任务"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "journal",
+    "meaning": [
+      "期刊",
+      "日志"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "justify",
+    "meaning": [
+      "证明……合理",
+      "为……辩护"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "label",
+    "meaning": [
+      "打上标签"
+    ],
+    "paraphrases": [
+      "tag"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "labour",
+    "meaning": [
+      "劳动",
+      "劳动力"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "layer",
+    "meaning": [
+      "层",
+      "层次"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "lecture",
+    "meaning": [
+      "讲座",
+      "授课"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "legal",
+    "meaning": [
+      "法律的",
+      "合法的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "legislate",
+    "meaning": [
+      "立法"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "legitimate",
+    "meaning": [
+      "合法的"
+    ],
+    "paraphrases": [
+      "legal"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "levy",
+    "meaning": [
+      "征收",
+      "税款"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "liberal",
+    "meaning": [
+      "自由的",
+      "开明的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "licence",
+    "meaning": [
+      "许可证",
+      "许可"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "likewise",
+    "meaning": [
+      "同样地"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "limitation",
+    "meaning": [
+      "限制"
+    ],
+    "paraphrases": [
+      "restriction"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "link",
+    "meaning": [
+      "联系",
+      "链接"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "locate",
+    "meaning": [
+      "定位",
+      "位于"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "logic",
+    "meaning": [
+      "逻辑"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "loss",
+    "meaning": [
+      "减少",
+      "亏损",
+      "失败",
+      "遗失的"
+    ],
+    "paraphrases": [
+      "reduction",
+      "absence"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "magnetic",
+    "meaning": [
+      "有磁性的"
+    ],
+    "paraphrases": [
+      "attractive (figurative)"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "major",
+    "meaning": [
+      "主要的",
+      "主修"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "manipulate",
+    "meaning": [
+      "操纵",
+      "处理"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "manual",
+    "meaning": [
+      "手册",
+      "手工的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "margin",
+    "meaning": [
+      "边缘",
+      "利润",
+      "幅度"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "mature",
+    "meaning": [
+      "成熟的",
+      "发展成熟"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "maximise",
+    "meaning": [
+      "最大化"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "mechanism",
+    "meaning": [
+      "机制",
+      "原理"
+    ],
+    "paraphrases": [
+      "process"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "media",
+    "meaning": [
+      "媒体"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "mediate",
+    "meaning": [
+      "调解",
+      "促成"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "medical",
+    "meaning": [
+      "医学的",
+      "医疗的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "medium",
+    "meaning": [
+      "媒介",
+      "中等的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "mental",
+    "meaning": [
+      "精神的",
+      "心理的",
+      "思维的"
+    ],
+    "paraphrases": [
+      "psychological"
+    ],
+    "collocations": [
+      "mental health"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "method",
+    "meaning": [
+      "方法"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "migrate",
+    "meaning": [
+      "转移",
+      "迁移"
+    ],
+    "paraphrases": [
+      "move"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "military",
+    "meaning": [
+      "军事的"
+    ],
+    "paraphrases": [
+      "relating to the armed forces"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "minimal",
+    "meaning": [
+      "最少的",
+      "最低限度的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "minimise",
+    "meaning": [
+      "最小化"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "minimum",
+    "meaning": [
+      "最低限度",
+      "最小的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "ministry",
+    "meaning": [
+      "部",
+      "政府部门"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "minor",
+    "meaning": [
+      "次要的",
+      "未成年人"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "mode",
+    "meaning": [
+      "模式",
+      "方式"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "modify",
+    "meaning": [
+      "修改",
+      "调整"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "monitor",
+    "meaning": [
+      "监控"
+    ],
+    "paraphrases": [
+      "observe"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "mortality",
+    "meaning": [
+      "死亡率",
+      "死亡"
+    ],
+    "paraphrases": [
+      "death rate"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "motive",
+    "meaning": [
+      "动机"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "mutual",
+    "meaning": [
+      "相互的",
+      "共同的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "negate",
+    "meaning": [
+      "否定",
+      "抵消"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "network",
+    "meaning": [
+      "网络"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "neutral",
+    "meaning": [
+      "中立的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "norm",
+    "meaning": [
+      "规范"
+    ],
+    "paraphrases": [
+      "standard"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "normal",
+    "meaning": [
+      "正常的",
+      "常态"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "notion",
+    "meaning": [
+      "概念",
+      "看法"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "nuclear",
+    "meaning": [
+      "核的",
+      "核能的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "objective",
+    "meaning": [
+      "目标",
+      "目的adj.客观的"
+    ],
+    "paraphrases": [
+      "goal"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "obvious",
+    "meaning": [
+      "明显的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "occupy",
+    "meaning": [
+      "占据",
+      "占用"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "odd",
+    "meaning": [
+      "古怪的"
+    ],
+    "paraphrases": [
+      "strange"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "offset",
+    "meaning": [
+      "抵消",
+      "偏移"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "ongoing",
+    "meaning": [
+      "持续进行的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "orient",
+    "meaning": [
+      "使适应",
+      "确定方向"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "original",
+    "meaning": [
+      "最初的",
+      "原创的",
+      "原件"
+    ],
+    "paraphrases": [
+      "initial",
+      "first"
+    ],
+    "collocations": [
+      "original source",
+      "original version"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "outcome",
+    "meaning": [
+      "结果"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "output",
+    "meaning": [
+      "输出",
+      "产出"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "overall",
+    "meaning": [
+      "总体的",
+      "总体上"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "overlap",
+    "meaning": [
+      "重叠"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "overseas",
+    "meaning": [
+      "海外的",
+      "在海外"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "panel",
+    "meaning": [
+      "专家组",
+      "面板"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "paradigm",
+    "meaning": [
+      "范式",
+      "典型"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "paragraph",
+    "meaning": [
+      "段落"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "parallel",
+    "meaning": [
+      "平行的",
+      "类似的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "parameter",
+    "meaning": [
+      "参数",
+      "界限"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "participate",
+    "meaning": [
+      "参加"
+    ],
+    "paraphrases": [
+      "take part"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "partner",
+    "meaning": [
+      "合作伙伴"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "passive",
+    "meaning": [
+      "被动的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "perceive",
+    "meaning": [
+      "感知",
+      "认为"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "percent",
+    "meaning": [
+      "百分比"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "peripheral",
+    "meaning": [
+      "外围的",
+      "次要的"
+    ],
+    "paraphrases": [
+      "secondary",
+      "minor"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "persist",
+    "meaning": [
+      "坚持",
+      "持续存在"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "perspective",
+    "meaning": [
+      "视角",
+      "观点"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "phase",
+    "meaning": [
+      "阶段"
+    ],
+    "paraphrases": [
+      "stage"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "phenomenon",
+    "meaning": [
+      "现象"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "philosophy",
+    "meaning": [
+      "哲学",
+      "理念"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "physical",
+    "meaning": [
+      "身体上的",
+      "物质的"
+    ],
+    "paraphrases": [
+      "bodily"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "play a major role in",
+    "meaning": [
+      "在……中起主要作用"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "play a major role in"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "plus",
+    "meaning": [
+      "加",
+      "优势",
+      "附加的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "policy",
+    "meaning": [
+      "政策",
+      "方针"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "portion",
+    "meaning": [
+      "部分",
+      "份额"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "pose",
+    "meaning": [
+      "提出",
+      "造成",
+      "形成"
+    ],
+    "paraphrases": [
+      "present"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "positive",
+    "meaning": [
+      "积极的",
+      "正面的",
+      "阳性的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "potential",
+    "meaning": [
+      "潜能adj.潜在的"
+    ],
+    "paraphrases": [
+      "possible"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "practitioner",
+    "meaning": [
+      "从业者",
+      "实践者"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "precede",
+    "meaning": [
+      "先于"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "precise",
+    "meaning": [
+      "精确的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "predict",
+    "meaning": [
+      "预测",
+      "预知"
+    ],
+    "paraphrases": [
+      "forecast"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "predominant",
+    "meaning": [
+      "占主导的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "prefer to",
+    "meaning": [
+      "更喜欢"
+    ],
+    "paraphrases": [
+      "would rather"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "preliminary",
+    "meaning": [
+      "初步的",
+      "预备的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "presume",
+    "meaning": [
+      "推定",
+      "假定"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "previous",
+    "meaning": [
+      "先前的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "prime",
+    "meaning": [
+      "主要的",
+      "首要的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "principal",
+    "meaning": [
+      "主要的",
+      "负责人",
+      "本金"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "principle",
+    "meaning": [
+      "原则",
+      "原理"
+    ],
+    "paraphrases": [
+      "rule"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "prior",
+    "meaning": [
+      "先前的",
+      "优先的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "priority",
+    "meaning": [
+      "优先权"
+    ],
+    "paraphrases": [
+      "precedence",
+      "greater importance"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "proceed",
+    "meaning": [
+      "继续",
+      "进行"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "professional",
+    "meaning": [
+      "专业的",
+      "专业人士"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "prohibit",
+    "meaning": [
+      "禁止的"
+    ],
+    "paraphrases": [
+      "ban"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "project",
+    "meaning": [
+      "项目",
+      "预测",
+      "投射"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "promote",
+    "meaning": [
+      "促进",
+      "推销"
+    ],
+    "paraphrases": [
+      "encourage"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "prompt",
+    "meaning": [
+      "促使",
+      "引发",
+      "提示"
+    ],
+    "paraphrases": [
+      "cause",
+      "trigger"
+    ],
+    "collocations": [
+      "prompt a response"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "proportion",
+    "meaning": [
+      "比例",
+      "部分"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "prospect",
+    "meaning": [
+      "前景",
+      "可能性"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "protocol",
+    "meaning": [
+      "协议",
+      "规程"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "prove to be",
+    "meaning": [
+      "结果证明是"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "prove to be effective"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "psychology",
+    "meaning": [
+      "心理学",
+      "心理"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "publication",
+    "meaning": [
+      "出版物",
+      "发表"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "publish",
+    "meaning": [
+      "出版",
+      "发表"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "purchase",
+    "meaning": [
+      "购买"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "pursue",
+    "meaning": [
+      "追求",
+      "从事"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "qualitative",
+    "meaning": [
+      "定性的",
+      "质的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "quantity",
+    "meaning": [
+      "量",
+      "数量"
+    ],
+    "paraphrases": [
+      "amount"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "quote",
+    "meaning": [
+      "引用",
+      "报价"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "radical",
+    "meaning": [
+      "根本的",
+      "彻底的",
+      "激进的"
+    ],
+    "paraphrases": [
+      "fundamental"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "random",
+    "meaning": [
+      "随机的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "ratio",
+    "meaning": [
+      "比率"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "rational",
+    "meaning": [
+      "理性的",
+      "合理的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "react",
+    "meaning": [
+      "反应"
+    ],
+    "paraphrases": [
+      "respond"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "recover",
+    "meaning": [
+      "恢复",
+      "找回"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "refine",
+    "meaning": [
+      "改进",
+      "提炼"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "regime",
+    "meaning": [
+      "体制",
+      "制度"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "region",
+    "meaning": [
+      "地区",
+      "区域"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "register",
+    "meaning": [
+      "登记",
+      "注册"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "regulate",
+    "meaning": [
+      "监管",
+      "调节"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "reinforce",
+    "meaning": [
+      "加强",
+      "强化"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "reject",
+    "meaning": [
+      "拒绝",
+      "排斥",
+      "丢弃"
+    ],
+    "paraphrases": [
+      "refuse"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "relax",
+    "meaning": [
+      "放松",
+      "放宽"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "release",
+    "meaning": [
+      "发布",
+      "释放"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "reluctance",
+    "meaning": [
+      "不情愿"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "rely",
+    "meaning": [
+      "依赖"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "remove",
+    "meaning": [
+      "移除",
+      "消除"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "research",
+    "meaning": [
+      "研究"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "reside",
+    "meaning": [
+      "居住",
+      "存在于"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "resolve",
+    "meaning": [
+      "解决",
+      "决心"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "resource",
+    "meaning": [
+      "资源"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "respond",
+    "meaning": [
+      "回应",
+      "作出反应"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "restore",
+    "meaning": [
+      "恢复",
+      "修复"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "restrain",
+    "meaning": [
+      "限制",
+      "抑制"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "restrict",
+    "meaning": [
+      "限制"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "revenue",
+    "meaning": [
+      "收入",
+      "税收"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "reverse",
+    "meaning": [
+      "逆转",
+      "相反"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "revise",
+    "meaning": [
+      "修正"
+    ],
+    "paraphrases": [
+      "editing"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "revolution",
+    "meaning": [
+      "革命",
+      "重大变革"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "rigid",
+    "meaning": [
+      "僵硬的",
+      "严格的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "route",
+    "meaning": [
+      "路线",
+      "途径"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "scenario",
+    "meaning": [
+      "情景",
+      "设想"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "schedule",
+    "meaning": [
+      "日程",
+      "安排"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "scheme",
+    "meaning": [
+      "方案",
+      "计划"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "scope",
+    "meaning": [
+      "范围"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "secrete",
+    "meaning": [
+      "分泌"
+    ],
+    "paraphrases": [
+      "discharge",
+      "exude"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "section",
+    "meaning": [
+      "部分",
+      "章节"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "sector",
+    "meaning": [
+      "部门",
+      "行业"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "secure",
+    "meaning": [
+      "获得",
+      "保护",
+      "安全的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "seek",
+    "meaning": [
+      "寻求"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "select",
+    "meaning": [
+      "选择"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "sequence",
+    "meaning": [
+      "顺序",
+      "序列"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "series",
+    "meaning": [
+      "系列"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "settle",
+    "meaning": [
+      "解决",
+      "定居",
+      "稳定"
+    ],
+    "paraphrases": [
+      "resolve",
+      "reach an agreement"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "sex",
+    "meaning": [
+      "性别",
+      "性"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "signal",
+    "meaning": [
+      "信号"
+    ],
+    "paraphrases": [
+      "sign",
+      "indication"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "similar",
+    "meaning": [
+      "相似的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "simulate",
+    "meaning": [
+      "模拟"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "site",
+    "meaning": [
+      "地点",
+      "网站"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "so-called",
+    "meaning": [
+      "所谓的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "sole",
+    "meaning": [
+      "唯一地"
+    ],
+    "paraphrases": [
+      "alone"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "somewhat",
+    "meaning": [
+      "有些",
+      "稍微"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "sophisticate",
+    "meaning": [
+      "使复杂",
+      "使更精密"
+    ],
+    "paraphrases": [
+      "make more complex"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "specify",
+    "meaning": [
+      "明确说明",
+      "指定"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "sphere",
+    "meaning": [
+      "领域",
+      "球体"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "stable",
+    "meaning": [
+      "稳定的"
+    ],
+    "paraphrases": [
+      "constant",
+      "unchanged"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "statistic",
+    "meaning": [
+      "统计数据"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "status",
+    "meaning": [
+      "状态",
+      "地位"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "straightforward",
+    "meaning": [
+      "直接的",
+      "简单明了的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "strategy",
+    "meaning": [
+      "策略"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "stress",
+    "meaning": [
+      "压力",
+      "强调"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "struggle to do",
+    "meaning": [
+      "艰难地做",
+      "难以做到"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "struggle to explain"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "style",
+    "meaning": [
+      "风格",
+      "样式"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "submit",
+    "meaning": [
+      "提交",
+      "屈服"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "subordinate",
+    "meaning": [
+      "下级的",
+      "次要的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "subsequent",
+    "meaning": [
+      "随后的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "subsidy",
+    "meaning": [
+      "补贴"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "substitute",
+    "meaning": [
+      "替代",
+      "代替品"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "successor",
+    "meaning": [
+      "继任者",
+      "后续事物"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "sufficient",
+    "meaning": [
+      "足量",
+      "充足"
+    ],
+    "paraphrases": [
+      "adequacy"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "sum",
+    "meaning": [
+      "总和",
+      "概括"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "summary",
+    "meaning": [
+      "摘要",
+      "总结"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "superior",
+    "meaning": [
+      "上级的",
+      "优秀的"
+    ],
+    "paraphrases": [
+      "better",
+      "higher in rank"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "supplement",
+    "meaning": [
+      "补充"
+    ],
+    "paraphrases": [
+      "add to"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "surrounding",
+    "meaning": [
+      "周围环境",
+      "周围的"
+    ],
+    "paraphrases": [
+      "environment",
+      "setting"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "survey",
+    "meaning": [
+      "调查",
+      "概述"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "survive",
+    "meaning": [
+      "存活",
+      "幸存"
+    ],
+    "paraphrases": [
+      "remain alive"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "suspend",
+    "meaning": [
+      "暂停",
+      "悬挂"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "sustain",
+    "meaning": [
+      "维持",
+      "支撑"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "swift",
+    "meaning": [
+      "迅速的",
+      "敏捷的",
+      "立刻的"
+    ],
+    "paraphrases": [
+      "quick",
+      "rapid"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "symbol",
+    "meaning": [
+      "符号",
+      "象征"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "tape",
+    "meaning": [
+      "磁带",
+      "胶带",
+      "录制"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "target",
+    "meaning": [
+      "目标",
+      "针对"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "task",
+    "meaning": [
+      "任务"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "team",
+    "meaning": [
+      "团队"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "technical",
+    "meaning": [
+      "技术的",
+      "专业的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "technique",
+    "meaning": [
+      "技术",
+      "技巧"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "technology",
+    "meaning": [
+      "技术",
+      "科技"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "temporary",
+    "meaning": [
+      "临时的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "tense",
+    "meaning": [
+      "紧张的",
+      "时态"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "terminate",
+    "meaning": [
+      "终止"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "text",
+    "meaning": [
+      "文本"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "that",
+    "meaning": [
+      "那",
+      "那个",
+      "用于指代前文信息"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "theme",
+    "meaning": [
+      "主题"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "theory",
+    "meaning": [
+      "理论"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "therapy",
+    "meaning": [
+      "治疗",
+      "理疗"
+    ],
+    "paraphrases": [
+      "treatment"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "thesis",
+    "meaning": [
+      "论文",
+      "论点"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "topic",
+    "meaning": [
+      "主题",
+      "话题"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "trace",
+    "meaning": [
+      "追溯",
+      "痕迹"
+    ],
+    "paraphrases": [
+      "track"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "tradition",
+    "meaning": [
+      "传统"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "transfer",
+    "meaning": [
+      "转移",
+      "转让"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "transform",
+    "meaning": [
+      "转变",
+      "改造"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "transit",
+    "meaning": [
+      "运输",
+      "通行",
+      "经过"
+    ],
+    "paraphrases": [
+      "passage"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "transport",
+    "meaning": [
+      "运输",
+      "运送"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "trigger",
+    "meaning": [
+      "触发",
+      "引发",
+      "引起"
+    ],
+    "paraphrases": [
+      "cause"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "ultimate",
+    "meaning": [
+      "最终的",
+      "根本的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "undergo",
+    "meaning": [
+      "经历",
+      "接受"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "undertake",
+    "meaning": [
+      "承担",
+      "着手"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "unexpectedly",
+    "meaning": [
+      "出乎意料的"
+    ],
+    "paraphrases": [
+      "surprisingly"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "uniform",
+    "meaning": [
+      "始终如一的"
+    ],
+    "paraphrases": [
+      "consistent"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "unify",
+    "meaning": [
+      "统一"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "unique",
+    "meaning": [
+      "独特的",
+      "唯一的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "utilise",
+    "meaning": [
+      "利用",
+      "使用"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "valid",
+    "meaning": [
+      "有效的",
+      "合理的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "vanish",
+    "meaning": [
+      "消失",
+      "绝迹"
+    ],
+    "paraphrases": [
+      "disappear"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "vary",
+    "meaning": [
+      "变化",
+      "有差异"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "vehicle",
+    "meaning": [
+      "车辆",
+      "载体"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "version",
+    "meaning": [
+      "版本",
+      "说法"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "via",
+    "meaning": [
+      "通过",
+      "经由"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "vicinity",
+    "meaning": [
+      "邻近",
+      "附近"
+    ],
+    "paraphrases": [
+      "nearby area",
+      "neighbourhood"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "violate",
+    "meaning": [
+      "违反",
+      "侵犯"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "virtual",
+    "meaning": [
+      "虚拟的",
+      "实质上的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "visible",
+    "meaning": [
+      "看得见的",
+      "明显的"
+    ],
+    "paraphrases": [
+      "able to be seen"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "vision",
+    "meaning": [
+      "视野",
+      "愿景"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "visual",
+    "meaning": [
+      "视觉的",
+      "图像的"
+    ],
+    "paraphrases": [
+      "pictorial"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "voluntary",
+    "meaning": [
+      "自愿的",
+      "志愿的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "welfare",
+    "meaning": [
+      "福利",
+      "福祉"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "whereby",
+    "meaning": [
+      "凭此",
+      "借以"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "widespread",
+    "meaning": [
+      "广泛的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "witness",
+    "meaning": [
+      "见证",
+      "证据",
+      "目击者"
+    ],
+    "paraphrases": [
+      "see",
+      "observe"
+    ],
+    "collocations": [],
+    "priority": "A"
+  },
+  {
+    "word": "work out a plan",
+    "meaning": [
+      "制定出计划"
+    ],
+    "paraphrases": [],
+    "collocations": [
+      "work out a plan"
+    ],
+    "priority": "A"
+  },
+  {
+    "word": "addictive",
+    "meaning": [
+      "上瘾的"
+    ],
+    "paraphrases": [
+      "habit-forming"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "adversity",
+    "meaning": [
+      "逆境",
+      "不幸"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "aggression",
+    "meaning": [
+      "侵犯",
+      "侵害"
+    ],
+    "paraphrases": [
+      "attack"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "agreeable",
+    "meaning": [
+      "令人愉快的",
+      "合适的",
+      "和蔼可亲的"
+    ],
+    "paraphrases": [
+      "pleasant"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "allergic",
+    "meaning": [
+      "过敏的",
+      "对……极讨厌的"
+    ],
+    "paraphrases": [
+      "sensitive to"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "altitude",
+    "meaning": [
+      "高度",
+      "海拔"
+    ],
+    "paraphrases": [
+      "height"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "approve",
+    "meaning": [
+      "批准"
+    ],
+    "paraphrases": [
+      "authorize"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "array",
+    "meaning": [
+      "排列",
+      "大批"
+    ],
+    "paraphrases": [
+      "arrangement"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "association",
+    "meaning": [
+      "协会",
+      "联盟",
+      "联系"
+    ],
+    "paraphrases": [
+      "link"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "be consistent with",
+    "meaning": [
+      "与……一致"
+    ],
+    "paraphrases": [
+      "be compatible with"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "bear",
+    "meaning": [
+      "承担",
+      "忍受"
+    ],
+    "paraphrases": [
+      "tolerate"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "blight",
+    "meaning": [
+      "损害",
+      "枯萎"
+    ],
+    "paraphrases": [
+      "damage"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "boundary",
+    "meaning": [
+      "边界",
+      "底线"
+    ],
+    "paraphrases": [
+      "limit"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "bungle",
+    "meaning": [
+      "搞糟",
+      "拙劣地工作"
+    ],
+    "paraphrases": [
+      "mishandle"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "burden",
+    "meaning": [
+      "负担"
+    ],
+    "paraphrases": [
+      "load"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "calamity",
+    "meaning": [
+      "灾难"
+    ],
+    "paraphrases": [
+      "disaster"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "catastrophic",
+    "meaning": [
+      "灾难的"
+    ],
+    "paraphrases": [
+      "disastrous"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "cater",
+    "meaning": [
+      "迎合",
+      "满足需求"
+    ],
+    "paraphrases": [
+      "serve"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "certify",
+    "meaning": [
+      "证明",
+      "保证"
+    ],
+    "paraphrases": [
+      "verify"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "civic",
+    "meaning": [
+      "公民的",
+      "城市的"
+    ],
+    "paraphrases": [
+      "municipal"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "commitment",
+    "meaning": [
+      "承诺",
+      "许诺",
+      "义务",
+      "致力"
+    ],
+    "paraphrases": [
+      "dedication"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "communal",
+    "meaning": [
+      "公共的",
+      "公社的"
+    ],
+    "paraphrases": [
+      "shared"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "commute",
+    "meaning": [
+      "通勤",
+      "用……交换"
+    ],
+    "paraphrases": [
+      "travel regularly"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "compare",
+    "meaning": [
+      "与……相比较"
+    ],
+    "paraphrases": [
+      "make a comparison"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "conceal",
+    "meaning": [
+      "隐藏",
+      "隐瞒"
+    ],
+    "paraphrases": [
+      "hide"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "concur",
+    "meaning": [
+      "同意"
+    ],
+    "paraphrases": [
+      "agree"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "confuse",
+    "meaning": [
+      "使混乱",
+      "使迷惑"
+    ],
+    "paraphrases": [
+      "puzzle"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "conservative",
+    "meaning": [
+      "保守的"
+    ],
+    "paraphrases": [
+      "traditional"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "contingent",
+    "meaning": [
+      "因情况而异的"
+    ],
+    "paraphrases": [
+      "conditional"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "controversial",
+    "meaning": [
+      "有争论的"
+    ],
+    "paraphrases": [
+      "disputed"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "correlation",
+    "meaning": [
+      "相关",
+      "关联"
+    ],
+    "paraphrases": [
+      "link"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "courtship",
+    "meaning": [
+      "求爱（时期）"
+    ],
+    "paraphrases": [
+      "process of seeking a mate"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "crash",
+    "meaning": [
+      "碰撞"
+    ],
+    "paraphrases": [
+      "collision"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "credibility",
+    "meaning": [
+      "可信性"
+    ],
+    "paraphrases": [
+      "trustworthiness"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "criminal",
+    "meaning": [
+      "罪犯",
+      "犯罪的"
+    ],
+    "paraphrases": [
+      "offender"
+    ],
+    "collocations": [
+      "criminal activity",
+      "criminal offender"
+    ],
+    "priority": "B"
+  },
+  {
+    "word": "crisis",
+    "meaning": [
+      "危机"
+    ],
+    "paraphrases": [
+      "emergency"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "criticism",
+    "meaning": [
+      "批评",
+      "批判",
+      "评论"
+    ],
+    "paraphrases": [
+      "negative evaluation"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "curb",
+    "meaning": [
+      "限制",
+      "抑制"
+    ],
+    "paraphrases": [
+      "restrict"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "damp",
+    "meaning": [
+      "潮湿的"
+    ],
+    "paraphrases": [
+      "wet"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "dazzle",
+    "meaning": [
+      "使目眩",
+      "使……眼花"
+    ],
+    "paraphrases": [
+      "temporarily blind"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "deadline",
+    "meaning": [
+      "最后期限"
+    ],
+    "paraphrases": [
+      "due date"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "delay",
+    "meaning": [
+      "延期",
+      "耽搁"
+    ],
+    "paraphrases": [
+      "postpone"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "democratic",
+    "meaning": [
+      "民主的"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "demographic",
+    "meaning": [
+      "人口统计学的",
+      "人口学"
+    ],
+    "paraphrases": [
+      "population-related"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "dental",
+    "meaning": [
+      "牙科的",
+      "牙齿的"
+    ],
+    "paraphrases": [
+      "relating to teeth"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "depression",
+    "meaning": [
+      "抑郁",
+      "沮丧"
+    ],
+    "paraphrases": [
+      "low mood"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "designate",
+    "meaning": [
+      "指定",
+      "指派",
+      "标出"
+    ],
+    "paraphrases": [
+      "appoint"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "detain",
+    "meaning": [
+      "留住"
+    ],
+    "paraphrases": [
+      "hold"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "devastate",
+    "meaning": [
+      "毁坏",
+      "毁灭"
+    ],
+    "paraphrases": [
+      "wreck"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "disclose",
+    "meaning": [
+      "公开",
+      "揭露"
+    ],
+    "paraphrases": [
+      "expose"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "disparate",
+    "meaning": [
+      "不同的"
+    ],
+    "paraphrases": [
+      "different"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "disrupt",
+    "meaning": [
+      "破坏"
+    ],
+    "paraphrases": [
+      "interrupt"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "distract",
+    "meaning": [
+      "转移",
+      "分心"
+    ],
+    "paraphrases": [
+      "divert"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "dominant",
+    "meaning": [
+      "占优势的",
+      "占支配地位的"
+    ],
+    "paraphrases": [
+      "leading"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "dramatic",
+    "meaning": [
+      "戏剧化的",
+      "激动人心的",
+      "引人注意的"
+    ],
+    "paraphrases": [
+      "striking"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "drought",
+    "meaning": [
+      "干旱"
+    ],
+    "paraphrases": [
+      "prolonged dry period"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "durable",
+    "meaning": [
+      "持久的"
+    ],
+    "paraphrases": [
+      "lasting"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "eco-friendly",
+    "meaning": [
+      "生态有好的",
+      "环保的"
+    ],
+    "paraphrases": [
+      "environmentally-friendly"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "elaborate",
+    "meaning": [
+      "详细阐述",
+      "详细叙述"
+    ],
+    "paraphrases": [
+      "explain in detail"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "elderly",
+    "meaning": [
+      "高龄的"
+    ],
+    "paraphrases": [
+      "aged"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "elusive",
+    "meaning": [
+      "难懂的",
+      "难捉摸的",
+      "行踪隐秘的"
+    ],
+    "paraphrases": [
+      "difficult to find"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "encyclopaedia",
+    "meaning": [
+      "百科全书"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "entrepreneur",
+    "meaning": [
+      "企业家"
+    ],
+    "paraphrases": [
+      "business founder"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "equator",
+    "meaning": [
+      "赤道"
+    ],
+    "paraphrases": [
+      "zero-degree latitude line"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "erratically",
+    "meaning": [
+      "不定的",
+      "无视规律地"
+    ],
+    "paraphrases": [
+      "unpredictably"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "ethical",
+    "meaning": [
+      "道德的"
+    ],
+    "paraphrases": [
+      "moral"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "eventually",
+    "meaning": [
+      "最后",
+      "终于"
+    ],
+    "paraphrases": [
+      "finally"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "exceptional",
+    "meaning": [
+      "异常的",
+      "杰出的",
+      "例外的"
+    ],
+    "paraphrases": [
+      "unusual",
+      "outstanding"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "exhausted",
+    "meaning": [
+      "疲惫的",
+      "耗尽的"
+    ],
+    "paraphrases": [
+      "extremely tired"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "experiment",
+    "meaning": [
+      "试验",
+      "试验"
+    ],
+    "paraphrases": [
+      "test"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "extend",
+    "meaning": [
+      "扩展",
+      "延伸",
+      "推广"
+    ],
+    "paraphrases": [
+      "expand"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "famine",
+    "meaning": [
+      "饥荒"
+    ],
+    "paraphrases": [
+      "hunger"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "fitness",
+    "meaning": [
+      "健康",
+      "适合度",
+      "适应性"
+    ],
+    "paraphrases": [
+      "health"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "foe",
+    "meaning": [
+      "敌人",
+      "危害物"
+    ],
+    "paraphrases": [
+      "enemy"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "fragment",
+    "meaning": [
+      "碎片"
+    ],
+    "paraphrases": [
+      "piece"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "freeze",
+    "meaning": [
+      "冰冻",
+      "冻结"
+    ],
+    "paraphrases": [
+      "solidify"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "fulfill",
+    "meaning": [
+      "履行",
+      "完成",
+      "满足"
+    ],
+    "paraphrases": [
+      "carry out"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "gene",
+    "meaning": [
+      "基因"
+    ],
+    "paraphrases": [],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "gifted",
+    "meaning": [
+      "有天赋的",
+      "有才华的"
+    ],
+    "paraphrases": [
+      "talented"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "graphic",
+    "meaning": [
+      "形象的",
+      "图解的"
+    ],
+    "paraphrases": [
+      "visual"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "habitat",
+    "meaning": [
+      "栖息地",
+      "住所"
+    ],
+    "paraphrases": [
+      "natural home"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "harbor",
+    "meaning": [
+      "怀有n.海港"
+    ],
+    "paraphrases": [
+      "contain"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "hardship",
+    "meaning": [
+      "艰难",
+      "困苦"
+    ],
+    "paraphrases": [
+      "difficulty"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "harsh",
+    "meaning": [
+      "艰难的",
+      "严酷的"
+    ],
+    "paraphrases": [
+      "severe"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "impressive",
+    "meaning": [
+      "感人的",
+      "给人深刻印象的"
+    ],
+    "paraphrases": [
+      "striking"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "inaccurate",
+    "meaning": [
+      "错误的"
+    ],
+    "paraphrases": [
+      "incorrect"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "inactive",
+    "meaning": [
+      "不活跃的",
+      "不活动的"
+    ],
+    "paraphrases": [
+      "passive"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "inappropriate",
+    "meaning": [
+      "不适当的"
+    ],
+    "paraphrases": [
+      "unsuitable"
+    ],
+    "collocations": [
+      "inappropriate for"
+    ],
+    "priority": "B"
+  },
+  {
+    "word": "indulge",
+    "meaning": [
+      "沉溺（于）"
+    ],
+    "paraphrases": [
+      "allow oneself to enjoy"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "infest",
+    "meaning": [
+      "侵害",
+      "寄生于"
+    ],
+    "paraphrases": [
+      "overrun"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "installment",
+    "meaning": [
+      "分期付款的一期",
+      "部分"
+    ],
+    "paraphrases": [
+      "part payment"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "intelligence",
+    "meaning": [
+      "智力"
+    ],
+    "paraphrases": [
+      "intellectual ability"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "interference",
+    "meaning": [
+      "干涉",
+      "干扰"
+    ],
+    "paraphrases": [
+      "disruption"
+    ],
+    "collocations": [
+      "interference with"
+    ],
+    "priority": "B"
+  },
+  {
+    "word": "interior",
+    "meaning": [
+      "内部adj.内部的"
+    ],
+    "paraphrases": [
+      "inner"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "interrupt",
+    "meaning": [
+      "中断"
+    ],
+    "paraphrases": [
+      "stop"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "introverted",
+    "meaning": [
+      "内向的",
+      "含蓄的"
+    ],
+    "paraphrases": [
+      "inward-looking"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "keen",
+    "meaning": [
+      "热切的",
+      "强迫的",
+      "强烈的"
+    ],
+    "paraphrases": [
+      "eager"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "lack",
+    "meaning": [
+      "缺乏",
+      "不足"
+    ],
+    "paraphrases": [
+      "absence"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "landscape",
+    "meaning": [
+      "风景"
+    ],
+    "paraphrases": [
+      "scene"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "likelihood",
+    "meaning": [
+      "可能性"
+    ],
+    "paraphrases": [
+      "chance"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "limb",
+    "meaning": [
+      "四肢"
+    ],
+    "paraphrases": [
+      "arm or leg"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "linguistic",
+    "meaning": [
+      "语言(学)的"
+    ],
+    "paraphrases": [
+      "language-related"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "log",
+    "meaning": [
+      "记录n.原木"
+    ],
+    "paraphrases": [
+      "record"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "look-in",
+    "meaning": [
+      "成功的机会"
+    ],
+    "paraphrases": [
+      "opportunity",
+      "chance"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "lopsided",
+    "meaning": [
+      "不平衡的"
+    ],
+    "paraphrases": [
+      "uneven"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "mainly",
+    "meaning": [
+      "主要的",
+      "大体的"
+    ],
+    "paraphrases": [
+      "primarily"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "malfunction",
+    "meaning": [
+      "发生故障",
+      "不起作用"
+    ],
+    "paraphrases": [
+      "fail to work"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "mammal",
+    "meaning": [
+      "哺乳动物"
+    ],
+    "paraphrases": [
+      "warm-blooded vertebrate"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "manage to do",
+    "meaning": [
+      "设法做到"
+    ],
+    "paraphrases": [
+      "succeed in doing"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "manifest",
+    "meaning": [
+      "显示",
+      "表明",
+      "显现"
+    ],
+    "paraphrases": [
+      "show"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "manufacture",
+    "meaning": [
+      "生产"
+    ],
+    "paraphrases": [
+      "produce"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "marine",
+    "meaning": [
+      "海产的",
+      "航海的",
+      "海运的"
+    ],
+    "paraphrases": [
+      "sea-related"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "mate",
+    "meaning": [
+      "配偶"
+    ],
+    "paraphrases": [
+      "spouse"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "mercury",
+    "meaning": [
+      "汞",
+      "水银"
+    ],
+    "paraphrases": [
+      "liquid metal"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "meteorological",
+    "meaning": [
+      "气象学的"
+    ],
+    "paraphrases": [
+      "weather"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "moisture",
+    "meaning": [
+      "水分",
+      "湿度"
+    ],
+    "paraphrases": [
+      "humidity"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "motif",
+    "meaning": [
+      "主题",
+      "图形"
+    ],
+    "paraphrases": [
+      "theme"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "mould",
+    "meaning": [
+      "模压",
+      "塑造",
+      "塑造成"
+    ],
+    "paraphrases": [
+      "form"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "native",
+    "meaning": [
+      "本国的",
+      "土著的",
+      "天然的",
+      "天赋的"
+    ],
+    "paraphrases": [
+      "indigenous"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "nocturnal",
+    "meaning": [
+      "夜间的",
+      "夜间发生的"
+    ],
+    "paraphrases": [
+      "active at night"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "notoriety",
+    "meaning": [
+      "恶名",
+      "声名狼藉"
+    ],
+    "paraphrases": [
+      "infamy"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "obligation",
+    "meaning": [
+      "义务"
+    ],
+    "paraphrases": [
+      "responsibility"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "obscure",
+    "meaning": [
+      "掩盖",
+      "使模糊不清"
+    ],
+    "paraphrases": [
+      "hide"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "odour",
+    "meaning": [
+      "气味"
+    ],
+    "paraphrases": [
+      "smell"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "offensive",
+    "meaning": [
+      "冒犯的",
+      "无礼的"
+    ],
+    "paraphrases": [
+      "insulting"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "official",
+    "meaning": [
+      "官员",
+      "官方的",
+      "正式的"
+    ],
+    "paraphrases": [
+      "authorized"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "optimum",
+    "meaning": [
+      "最佳效果adj.最适宜的"
+    ],
+    "paraphrases": [
+      "best"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "ordinary",
+    "meaning": [
+      "普通的",
+      "平凡的",
+      "平常的"
+    ],
+    "paraphrases": [
+      "common"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "organ",
+    "meaning": [
+      "器官",
+      "机构"
+    ],
+    "paraphrases": [
+      "body part"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "out of the question",
+    "meaning": [
+      "不可能"
+    ],
+    "paraphrases": [
+      "impossible"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "overcome",
+    "meaning": [
+      "克服"
+    ],
+    "paraphrases": [
+      "defeat"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "overtake",
+    "meaning": [
+      "赶上"
+    ],
+    "paraphrases": [
+      "pass"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "paralyse",
+    "meaning": [
+      "使……麻痹",
+      "使……瘫痪"
+    ],
+    "paraphrases": [
+      "immobilize"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "paramount",
+    "meaning": [
+      "最重要的",
+      "主要的"
+    ],
+    "paraphrases": [
+      "most important"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "patient",
+    "meaning": [
+      "病人",
+      "有耐心的"
+    ],
+    "paraphrases": [
+      "tolerant"
+    ],
+    "collocations": [
+      "patient care",
+      "be patient with"
+    ],
+    "priority": "B"
+  },
+  {
+    "word": "peak",
+    "meaning": [
+      "最高峰",
+      "顶点v.使……达到顶峰"
+    ],
+    "paraphrases": [
+      "top"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "permit",
+    "meaning": [
+      "许可证",
+      "执照v.许可"
+    ],
+    "paraphrases": [
+      "allow"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "persuade",
+    "meaning": [
+      "说服",
+      "劝说"
+    ],
+    "paraphrases": [
+      "convince"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "pessimistic",
+    "meaning": [
+      "悲观的"
+    ],
+    "paraphrases": [
+      "negative"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "plagiarise",
+    "meaning": [
+      "抄袭"
+    ],
+    "paraphrases": [
+      "copy"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "plenty of",
+    "meaning": [
+      "大量的"
+    ],
+    "paraphrases": [
+      "many"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "plot",
+    "meaning": [
+      "密谋"
+    ],
+    "paraphrases": [
+      "plan"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "portable",
+    "meaning": [
+      "可携带的"
+    ],
+    "paraphrases": [
+      "easy to carry"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "poverty",
+    "meaning": [
+      "贫穷"
+    ],
+    "paraphrases": [
+      "state of being poor"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "praise",
+    "meaning": [
+      "赞扬"
+    ],
+    "paraphrases": [
+      "commend"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "pressing",
+    "meaning": [
+      "迫切的"
+    ],
+    "paraphrases": [
+      "urgent"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "private",
+    "meaning": [
+      "私人的",
+      "私有的",
+      "私下的"
+    ],
+    "paraphrases": [
+      "personal"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "prolong",
+    "meaning": [
+      "拉长",
+      "延长"
+    ],
+    "paraphrases": [
+      "extend"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "prosper",
+    "meaning": [
+      "使成功",
+      "使繁荣"
+    ],
+    "paraphrases": [
+      "thrive"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "purify",
+    "meaning": [
+      "净化"
+    ],
+    "paraphrases": [
+      "clean"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "qualify",
+    "meaning": [
+      "取得资格",
+      "使符合条件",
+      "限定"
+    ],
+    "paraphrases": [
+      "become eligible"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "rare",
+    "meaning": [
+      "稀有的"
+    ],
+    "paraphrases": [
+      "unusual"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "recreation",
+    "meaning": [
+      "娱乐",
+      "消遣"
+    ],
+    "paraphrases": [
+      "entertainment"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "reduction",
+    "meaning": [
+      "下降",
+      "减少"
+    ],
+    "paraphrases": [
+      "decrease"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "refer to",
+    "meaning": [
+      "指(的是)",
+      "涉及",
+      "提及"
+    ],
+    "paraphrases": [
+      "mention"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "rehearsal",
+    "meaning": [
+      "排演",
+      "预演",
+      "练习"
+    ],
+    "paraphrases": [
+      "practice"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "religious",
+    "meaning": [
+      "宗教的",
+      "虔诚的"
+    ],
+    "paraphrases": [
+      "relating to religion"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "reluctant",
+    "meaning": [
+      "不情愿的"
+    ],
+    "paraphrases": [
+      "unwilling"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "reproduce",
+    "meaning": [
+      "繁殖"
+    ],
+    "paraphrases": [
+      "breed"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "responsible",
+    "meaning": [
+      "负责的",
+      "可靠的",
+      "有责任的"
+    ],
+    "paraphrases": [
+      "accountable"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "revive",
+    "meaning": [
+      "使复苏",
+      "恢复"
+    ],
+    "paraphrases": [
+      "restore"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "ruin",
+    "meaning": [
+      "毁灭"
+    ],
+    "paraphrases": [
+      "destroy"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "scenic",
+    "meaning": [
+      "风景优美的"
+    ],
+    "paraphrases": [
+      "picturesque"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "shade",
+    "meaning": [
+      "遮阳",
+      "阴影"
+    ],
+    "paraphrases": [
+      "shadow"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "skepticism",
+    "meaning": [
+      "怀疑"
+    ],
+    "paraphrases": [
+      "doubt"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "soar",
+    "meaning": [
+      "激增"
+    ],
+    "paraphrases": [
+      "rise sharply"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "solicitor",
+    "meaning": [
+      "律师"
+    ],
+    "paraphrases": [
+      "lawyer"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "steer",
+    "meaning": [
+      "控制",
+      "引导"
+    ],
+    "paraphrases": [
+      "guide"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "stimulate",
+    "meaning": [
+      "刺激",
+      "激励"
+    ],
+    "paraphrases": [
+      "encourage"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "stride",
+    "meaning": [
+      "进展"
+    ],
+    "paraphrases": [
+      "progress"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "subdivide",
+    "meaning": [
+      "把……细分"
+    ],
+    "paraphrases": [
+      "divide into smaller parts"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "substance",
+    "meaning": [
+      "物质",
+      "实质"
+    ],
+    "paraphrases": [
+      "matter"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "subtle",
+    "meaning": [
+      "微妙的"
+    ],
+    "paraphrases": [
+      "not obvious"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "succumb",
+    "meaning": [
+      "屈服"
+    ],
+    "paraphrases": [
+      "yield"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "supersede",
+    "meaning": [
+      "取代",
+      "代替"
+    ],
+    "paraphrases": [
+      "replace"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "suppress",
+    "meaning": [
+      "抑制",
+      "隐瞒"
+    ],
+    "paraphrases": [
+      "restrain"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "supremacy",
+    "meaning": [
+      "至高地位",
+      "优势"
+    ],
+    "paraphrases": [
+      "dominance"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "suspicious",
+    "meaning": [
+      "可疑的"
+    ],
+    "paraphrases": [
+      "doubtful"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "sustainable",
+    "meaning": [
+      "可持续的"
+    ],
+    "paraphrases": [
+      "long-term"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "symptom",
+    "meaning": [
+      "症状",
+      "征兆"
+    ],
+    "paraphrases": [
+      "sign"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "tension",
+    "meaning": [
+      "紧张",
+      "不安"
+    ],
+    "paraphrases": [
+      "strain"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "throughout",
+    "meaning": [
+      "自始至终",
+      "遍及",
+      "在各处"
+    ],
+    "paraphrases": [
+      "all through"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "toll",
+    "meaning": [
+      "通行费v.征收"
+    ],
+    "paraphrases": [
+      "charge"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "transcend",
+    "meaning": [
+      "胜过",
+      "超越"
+    ],
+    "paraphrases": [
+      "go beyond"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "tremendous",
+    "meaning": [
+      "巨大的",
+      "惊人的"
+    ],
+    "paraphrases": [
+      "vast"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "tropical",
+    "meaning": [
+      "热带的"
+    ],
+    "paraphrases": [
+      "relating to the tropics"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "unbiased",
+    "meaning": [
+      "公正的",
+      "无偏见的"
+    ],
+    "paraphrases": [
+      "fair"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "valuable",
+    "meaning": [
+      "有价值的",
+      "宝贵的"
+    ],
+    "paraphrases": [
+      "useful"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "versatile",
+    "meaning": [
+      "多功能"
+    ],
+    "paraphrases": [
+      "adaptable"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "view",
+    "meaning": [
+      "看待",
+      "认为",
+      "观点",
+      "景色"
+    ],
+    "paraphrases": [
+      "see"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "violent",
+    "meaning": [
+      "暴力的",
+      "猛烈的"
+    ],
+    "paraphrases": [
+      "forceful"
+    ],
+    "collocations": [],
+    "priority": "B"
+  },
+  {
+    "word": "well-being",
+    "meaning": [
+      "健康",
+      "康乐"
+    ],
+    "paraphrases": [
+      "health"
+    ],
+    "collocations": [],
+    "priority": "B"
+  }
+]
