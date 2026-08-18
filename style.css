@@ -309,7 +309,7 @@ button {
   font-size: clamp(2.8rem, 12vw, 5.4rem);
   font-weight: 500;
   line-height: 1.04;
-  letter-spacing: -0.035em;
+  letter-spacing: 0;
 }
 
 .front-word.is-single-word {
@@ -334,7 +334,7 @@ button {
   font-size: clamp(2rem, 8.8vw, 4rem);
   font-weight: 500;
   line-height: 1.05;
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
 }
 
 .word-meta {
