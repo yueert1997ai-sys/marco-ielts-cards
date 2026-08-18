@@ -25,7 +25,7 @@ def main() -> int:
     assert isinstance(words, list) and words
     assert all(set(item) == {"word", "partOfSpeech", "meaning", "paraphrases", "collocations", "priority"} for item in words)
     assert all(item["word"] and item["meaning"] and item["priority"] in "SAB" for item in words)
-    assert all(isinstance(item["partOfSpeech"], str) for item in words)
+    assert all(isinstance(item["partOfSpeech"], str) and item["partOfSpeech"] for item in words)
     assert all(isinstance(item[field], list) for item in words for field in ("meaning", "paraphrases", "collocations"))
 
     by_word = {item["word"]: item for item in words}
@@ -33,6 +33,7 @@ def main() -> int:
     assert REQUIRED <= set(by_word)
     assert all(by_word[word]["priority"] == "S" for word in REQUIRED)
     assert by_word["assignment"]["meaning"] == ["任务", "作业", "分配的工作"]
+    assert by_word["assignment"]["partOfSpeech"] == "n."
     assert by_word["period"]["paraphrases"] == ["phase", "stage"]
 
     for word, banned_values in BANNED.items():

@@ -40,6 +40,23 @@ def read_document(source: Path) -> tuple[str, int | None]:
 
 def extract_words(markup: str) -> list[dict]:
     root = ET.fromstring(f"<root>{markup}</root>")
+    pos_map: dict[str, str] = {}
+    in_pos_index = False
+
+    for node in root:
+        if node.tag == "h1":
+            in_pos_index = clean_text(node).startswith("14｜词性索引")
+            continue
+        if node.tag != "table" or not in_pos_index:
+            continue
+        body = node.find("tbody")
+        if body is None:
+            continue
+        for row in body.findall("tr"):
+            cells = [clean_text(cell) for cell in list(row) if cell.tag == "td"]
+            if len(cells) == 2 and cells[0] and cells[1] and cells[1] != "—":
+                pos_map[cells[0]] = cells[1]
+
     active_priority: str | None = None
     words: list[dict] = []
 
@@ -73,7 +90,7 @@ def extract_words(markup: str) -> list[dict]:
                 continue
             item = {
                 "word": word,
-                "partOfSpeech": "" if part_of_speech == "—" else part_of_speech,
+                "partOfSpeech": pos_map.get(word, "" if part_of_speech == "—" else part_of_speech),
                 "meaning": split_chinese(meaning),
                 "paraphrases": split_slashes(paraphrase),
                 "collocations": split_slashes(collocation),
