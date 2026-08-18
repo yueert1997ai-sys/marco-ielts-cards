@@ -28,9 +28,9 @@
 
         <div class="filters" aria-label="优先级筛选">
           <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">全部</button>
-          <button class="filter-button" type="button" data-filter="S" aria-pressed="false">S</button>
-          <button class="filter-button" type="button" data-filter="A" aria-pressed="false">A</button>
-          <button class="filter-button" type="button" data-filter="B" aria-pressed="false">B</button>
+          <button class="filter-button" type="button" data-filter="S" aria-label="S 级：必须秒懂" title="S 级：必须秒懂" aria-pressed="false">S</button>
+          <button class="filter-button" type="button" data-filter="A" aria-label="A 级：重点掌握" title="A 级：重点掌握" aria-pressed="false">A</button>
+          <button class="filter-button" type="button" data-filter="B" aria-label="B 级：扩展积累" title="B 级：扩展积累" aria-pressed="false">B</button>
         </div>
       </nav>
 
@@ -42,6 +42,8 @@
               认识 <strong id="daily-known">0</strong>
               <span aria-hidden="true">·</span>
               不会 <strong id="daily-weak">0</strong>
+              <span aria-hidden="true">·</span>
+              到期 <strong id="daily-due">0</strong>
               <span aria-hidden="true">·</span>
               当前 <strong id="daily-level">S</strong> 级
               <span aria-hidden="true">·</span>
@@ -59,11 +61,11 @@
       <main class="card-stage">
         <article id="word-card" class="word-card" role="button" tabindex="0" aria-label="翻开单词卡" aria-pressed="false">
           <section id="card-front" class="card-face card-front">
-            <h1 id="front-word" class="front-word">loading</h1>
+            <h1 id="front-word" class="front-word" lang="en">loading</h1>
           </section>
 
           <section id="card-back" class="card-face card-back" hidden>
-            <h2 id="back-word" class="back-word"></h2>
+            <h2 id="back-word" class="back-word" lang="en"></h2>
             <div class="word-meta" aria-label="词条信息">
               <span id="priority-badge" class="priority-badge"></span>
               <span id="part-of-speech" class="part-of-speech"></span>
@@ -72,12 +74,12 @@
 
             <div id="paraphrase-block" class="detail-block">
               <p class="detail-label">同义词 / 可靠改写</p>
-              <p id="paraphrases" class="detail-copy"></p>
+              <p id="paraphrases" class="detail-copy" lang="en"></p>
             </div>
 
             <div id="collocation-block" class="detail-block" hidden>
               <p class="detail-label">常见搭配</p>
-              <p id="collocations" class="detail-copy detail-copy-muted"></p>
+              <p id="collocations" class="detail-copy detail-copy-muted" lang="en"></p>
             </div>
           </section>
         </article>
@@ -92,7 +94,10 @@
         </div>
       </section>
 
-      <p id="status-message" class="status-message" role="status" aria-live="polite"></p>
+      <div class="status-row">
+        <p id="status-message" class="status-message" role="status" aria-live="polite"></p>
+        <button id="undo-action" class="undo-button" type="button" hidden>撤销上一步</button>
+      </div>
 
       <details class="progress-tools">
         <summary>进度管理</summary>
