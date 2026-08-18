@@ -115,6 +115,12 @@
     return streak;
   }
 
+  function fittedFontSize(baseSize, availableWidth, requiredWidth, minimumSize = 18) {
+    if (![baseSize, availableWidth, requiredWidth].every((value) => Number.isFinite(value) && value > 0)) return baseSize;
+    if (requiredWidth <= availableWidth) return baseSize;
+    return Math.max(minimumSize, Math.floor(baseSize * (availableWidth / requiredWidth) * 0.96));
+  }
+
   function storedCurrentWord(rawState, vocabulary) {
     if (!rawState || !Array.isArray(rawState.queue) || !Number.isInteger(rawState.position)) return "";
     const candidate = rawState.queue[rawState.position];
@@ -212,6 +218,7 @@
     let isBack = false;
     let todayKey = localDateKey();
     let todayDeck = [];
+    let wordFitFrame = 0;
 
     function loadState() {
       try {
@@ -369,6 +376,26 @@
       elements.card.setAttribute("aria-label", back ? "返回单词正面" : "显示答案");
     }
 
+    function setFrontWord(text) {
+      const value = String(text || "");
+      const isSingleWord = !/\s/.test(value.trim());
+      elements.frontWord.textContent = value;
+      elements.frontWord.classList.toggle("is-single-word", isSingleWord);
+      elements.frontWord.classList.toggle("is-phrase", !isSingleWord);
+      elements.frontWord.style.removeProperty("font-size");
+      window.cancelAnimationFrame(wordFitFrame);
+
+      if (!isSingleWord) return;
+      wordFitFrame = window.requestAnimationFrame(() => {
+        if (elements.frontWord.textContent !== value) return;
+        const availableWidth = elements.frontWord.clientWidth;
+        const requiredWidth = elements.frontWord.scrollWidth;
+        const baseSize = Number.parseFloat(window.getComputedStyle(elements.frontWord).fontSize);
+        const nextSize = fittedFontSize(baseSize, availableWidth, requiredWidth);
+        if (nextSize < baseSize) elements.frontWord.style.fontSize = `${nextSize}px`;
+      });
+    }
+
     function renderControls() {
       const weak = weakSet();
       const isDaily = state.mode === "daily";
@@ -399,7 +426,7 @@
       if (!current) {
         const dailyComplete = state.mode === "daily" && todayDeck.length > 0 && dailyCompletedSet().size >= todayDeck.length;
         elements.counter.textContent = dailyComplete ? `${todayDeck.length} / ${todayDeck.length}` : "0 / 0";
-        elements.frontWord.textContent = dailyComplete ? "今日 50 词完成" : state.mode === "weak" ? "还没有不会的词" : "没有符合条件的词";
+        setFrontWord(dailyComplete ? "今日 50 词完成" : state.mode === "weak" ? "还没有不会的词" : "没有符合条件的词");
         elements.status.textContent = dailyComplete
           ? `认识 ${state.daily.knownWords.length} · 不会 ${state.daily.weakWords.length} · 连续 ${calculateStreak(state.daily.completedDates, todayKey)} 天`
           : state.mode === "weak"
@@ -411,7 +438,7 @@
 
       elements.status.textContent = state.mode === "daily" ? "“认识”或“不会”计入今日进度；跳过的词稍后还会出现。" : "";
       elements.counter.textContent = state.mode === "daily" ? `${dailyCompletedSet().size} / ${todayDeck.length}` : `${state.position + 1} / ${state.queue.length}`;
-      elements.frontWord.textContent = current.word;
+      setFrontWord(current.word);
       elements.backWord.textContent = current.word;
       elements.priorityBadge.textContent = `${current.priority} · ${PRIORITY_LABELS[current.priority]}`;
       elements.priorityBadge.dataset.priority = current.priority;
@@ -552,6 +579,9 @@
         renderCurrent();
       }
     });
+    window.addEventListener("resize", () => {
+      if (current && !isBack) setFrontWord(current.word);
+    });
 
     fetch("./data/words.json")
       .then((response) => {
@@ -586,6 +616,7 @@
       localDateKey,
       shiftDateKey,
       calculateStreak,
+      fittedFontSize,
       storedCurrentWord,
       safeState,
       serializeBackup,

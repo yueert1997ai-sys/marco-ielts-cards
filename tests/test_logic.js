@@ -10,6 +10,7 @@ const {
   createPriorityQueue,
   shiftDateKey,
   calculateStreak,
+  fittedFontSize,
   storedCurrentWord,
   safeState,
   serializeBackup,
@@ -58,6 +59,8 @@ assert.deepEqual(priorityQueue, ["s-word", "a-word", "b-word"]);
 assert.equal(shiftDateKey("2026-03-01", -1), "2026-02-28");
 assert.equal(calculateStreak(["2026-08-16", "2026-08-17"], "2026-08-18"), 2);
 assert.equal(calculateStreak(["2026-08-16", "2026-08-17", "2026-08-18"], "2026-08-18"), 3);
+assert.equal(fittedFontSize(48, 300, 360), 38);
+assert.equal(fittedFontSize(48, 360, 300), 48);
 
 assert.deepEqual(safeState({ mode: "bad", filter: "X", weakWords: ["field", 2] }), {
   weakWords: ["field"],
@@ -81,4 +84,4 @@ assert.deepEqual(parseBackup(backup), {
 });
 assert.throws(() => parseBackup('{"version":1}'));
 
-console.log(JSON.stringify({ ok: true, tests: 22 }));
+console.log(JSON.stringify({ ok: true, tests: 24 }));

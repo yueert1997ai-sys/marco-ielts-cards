@@ -299,13 +299,25 @@ button {
 
 .front-word {
   margin: 0;
+  width: 100%;
+  min-width: 0;
   max-width: 100%;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.8rem, 12vw, 5.4rem);
   font-weight: 500;
   line-height: 1.04;
   letter-spacing: -0.035em;
+}
+
+.front-word.is-single-word {
+  white-space: nowrap;
+}
+
+.front-word.is-phrase {
+  text-wrap: balance;
 }
 
 .card-back {
