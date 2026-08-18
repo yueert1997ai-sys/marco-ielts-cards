@@ -31,6 +31,12 @@
     return queue;
   }
 
+  function storedCurrentWord(rawState, vocabulary) {
+    if (!rawState || !Array.isArray(rawState.queue) || !Number.isInteger(rawState.position)) return "";
+    const candidate = rawState.queue[rawState.position];
+    return typeof candidate === "string" && vocabulary && vocabulary.has(candidate) ? candidate : "";
+  }
+
   function safeState(raw) {
     if (!raw || typeof raw !== "object") return { ...DEFAULT_STATE };
     return {
@@ -326,7 +332,8 @@
         words = data;
         byWord = new Map(words.map((entry) => [entry.word, entry]));
         state.weakWords = state.weakWords.filter((word) => byWord.has(word));
-        ensureQueue();
+        // Every page session begins with a fresh shuffle. Learning preferences still persist.
+        resetQueue(storedCurrentWord(state, byWord));
         renderCurrent();
       })
       .catch(() => {
@@ -339,7 +346,7 @@
   }
 
   if (typeof module !== "undefined" && module.exports) {
-    module.exports = { fisherYates, createQueue, safeState, serializeBackup, parseBackup };
+    module.exports = { fisherYates, createQueue, storedCurrentWord, safeState, serializeBackup, parseBackup };
   }
   if (typeof document !== "undefined") {
     document.addEventListener("DOMContentLoaded", boot);
