@@ -19,10 +19,11 @@
 
       <nav class="controls" aria-label="学习范围">
         <div class="segmented" aria-label="学习模式">
-          <button class="mode-button is-active" type="button" data-mode="all" aria-pressed="true">全部</button>
+          <button class="mode-button is-active" type="button" data-mode="all" aria-pressed="true">随机</button>
           <button class="mode-button" type="button" data-mode="weak" aria-pressed="false">
             不会的 <span id="weak-count" class="weak-count">0</span>
           </button>
+          <button class="mode-button" type="button" data-mode="daily" aria-pressed="false">今日 50</button>
         </div>
 
         <div class="filters" aria-label="优先级筛选">
@@ -32,6 +33,28 @@
           <button class="filter-button" type="button" data-filter="B" aria-pressed="false">B</button>
         </div>
       </nav>
+
+      <section id="daily-dashboard" class="daily-dashboard" aria-label="每日训练进度" hidden>
+        <div class="daily-summary">
+          <div>
+            <p id="daily-title" class="daily-title">今日训练</p>
+            <p class="daily-stats">
+              认识 <strong id="daily-known">0</strong>
+              <span aria-hidden="true">·</span>
+              不会 <strong id="daily-weak">0</strong>
+              <span aria-hidden="true">·</span>
+              当前 <strong id="daily-level">S</strong> 级
+              <span aria-hidden="true">·</span>
+              连续 <strong id="daily-streak">0</strong> 天
+            </p>
+          </div>
+          <p class="daily-total"><strong id="daily-completed">0</strong><span>/50</span></p>
+        </div>
+        <div id="daily-progress" class="daily-progress" role="progressbar" aria-label="今日训练完成进度" aria-valuemin="0" aria-valuemax="50" aria-valuenow="0">
+          <span id="daily-progress-fill" class="daily-progress-fill"></span>
+        </div>
+        <div id="daily-calendar" class="daily-calendar" aria-label="近七天训练记录"></div>
+      </section>
 
       <main class="card-stage">
         <article id="word-card" class="word-card" role="button" tabindex="0" aria-label="翻开单词卡" aria-pressed="false">

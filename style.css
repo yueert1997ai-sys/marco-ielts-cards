@@ -48,7 +48,7 @@ button {
   margin: 0 auto;
   padding: max(18px, env(safe-area-inset-top)) 18px max(18px, env(safe-area-inset-bottom));
   display: grid;
-  grid-template-rows: auto auto minmax(0, 1fr) auto auto auto;
+  grid-template-rows: auto auto auto minmax(0, 1fr) auto auto auto;
   gap: 14px;
 }
 
@@ -143,6 +143,115 @@ button {
   font-weight: 700;
 }
 
+.daily-dashboard {
+  padding: 14px 15px 12px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+}
+
+.daily-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.daily-title,
+.daily-stats,
+.daily-total {
+  margin: 0;
+}
+
+.daily-title {
+  font-size: 0.88rem;
+  font-weight: 760;
+}
+
+.daily-stats {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.daily-stats strong {
+  color: var(--text);
+}
+
+.daily-total {
+  display: flex;
+  align-items: baseline;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.daily-total strong {
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.daily-total span {
+  font-size: 0.78rem;
+}
+
+.daily-progress {
+  height: 5px;
+  margin-top: 11px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--soft);
+}
+
+.daily-progress-fill {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width 180ms ease;
+}
+
+.daily-calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.daily-day {
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 0.64rem;
+}
+
+.daily-date {
+  display: grid;
+  width: 25px;
+  height: 25px;
+  place-items: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.daily-day.is-today .daily-date {
+  border-color: var(--line);
+  color: var(--text);
+  font-weight: 750;
+}
+
+.daily-day.is-complete .daily-date {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-text);
+}
+
 .card-stage {
   min-height: 0;
   display: flex;
@@ -161,6 +270,10 @@ button {
   outline: none;
   overflow: hidden;
   transition: transform 140ms ease, border-color 140ms ease;
+}
+
+.app-shell.is-daily .word-card {
+  min-height: min(46svh, 520px);
 }
 
 .word-card:active {
@@ -369,18 +482,31 @@ button {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 480px) {
   .app-shell {
     padding-inline: 13px;
     gap: 11px;
   }
 
   .controls {
+    align-items: stretch;
+    flex-direction: column;
     gap: 7px;
   }
 
+  .segmented {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .mode-button {
-    padding-inline: 10px;
+    padding-inline: 8px;
+    font-size: 0.8rem;
+  }
+
+  .filters {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .filter-button {

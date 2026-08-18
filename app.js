@@ -2,6 +2,9 @@
   "use strict";
 
   const STORAGE_KEY = "marcoIeltsCards.v1";
+  const DAILY_TARGET = 50;
+  const PRIORITY_ORDER = ["S", "A", "B"];
+  const emptyDailyState = () => ({ date: "", deckWords: [], knownWords: [], weakWords: [], trainedWords: [], completedDates: [] });
   const DEFAULT_STATE = {
     weakWords: [],
     mode: "all",
@@ -9,6 +12,7 @@
     queue: [],
     position: 0,
     queueKey: "",
+    daily: emptyDailyState(),
   };
   const BACKUP_FORMAT = "marco-ielts-cards-progress";
   const PRIORITY_LABELS = { S: "必须秒懂", A: "重点掌握", B: "扩展积累" };
@@ -31,6 +35,86 @@
     return queue;
   }
 
+  function hashString(value) {
+    let hash = 2166136261;
+    for (let index = 0; index < value.length; index += 1) {
+      hash ^= value.charCodeAt(index);
+      hash = Math.imul(hash, 16777619);
+    }
+    return hash >>> 0;
+  }
+
+  function seededRandom(seed) {
+    let value = seed >>> 0;
+    return () => {
+      value += 0x6d2b79f5;
+      let result = value;
+      result = Math.imul(result ^ (result >>> 15), result | 1);
+      result ^= result + Math.imul(result ^ (result >>> 7), result | 61);
+      return ((result ^ (result >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  function shuffleDailyGroup(entries, dateKey, label) {
+    const names = entries.map((entry) => entry.word);
+    const seed = hashString(`${dateKey}|${label}|${names.join("|")}`);
+    return fisherYates(names, seededRandom(seed));
+  }
+
+  function createPriorityDailyDeck(entries, dateKey, trainedWords = [], count = DAILY_TARGET) {
+    const trained = new Set(trainedWords);
+    const untrainedGroups = PRIORITY_ORDER.flatMap((priority) =>
+      shuffleDailyGroup(
+        entries.filter((entry) => entry.priority === priority && !trained.has(entry.word)),
+        dateKey,
+        `new-${priority}`,
+      ),
+    );
+    const trainedGroups = PRIORITY_ORDER.flatMap((priority) =>
+      shuffleDailyGroup(
+        entries.filter((entry) => entry.priority === priority && trained.has(entry.word)),
+        dateKey,
+        `review-${priority}`,
+      ),
+    );
+    return [...untrainedGroups, ...trainedGroups].slice(0, Math.min(count, entries.length));
+  }
+
+  function createPriorityQueue(entries, previousWord = "", random = Math.random) {
+    return PRIORITY_ORDER.flatMap((priority) =>
+      createQueue(
+        entries.filter((entry) => entry.priority === priority).map((entry) => entry.word),
+        previousWord,
+        random,
+      ),
+    );
+  }
+
+  function localDateKey(date = new Date()) {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
+  }
+
+  function shiftDateKey(dateKey, offset) {
+    const [year, month, day] = dateKey.split("-").map(Number);
+    const date = new Date(Date.UTC(year, month - 1, day));
+    date.setUTCDate(date.getUTCDate() + offset);
+    return date.toISOString().slice(0, 10);
+  }
+
+  function calculateStreak(completedDates, todayKey) {
+    const completed = new Set(completedDates);
+    let cursor = completed.has(todayKey) ? todayKey : shiftDateKey(todayKey, -1);
+    let streak = 0;
+    while (completed.has(cursor)) {
+      streak += 1;
+      cursor = shiftDateKey(cursor, -1);
+    }
+    return streak;
+  }
+
   function storedCurrentWord(rawState, vocabulary) {
     if (!rawState || !Array.isArray(rawState.queue) || !Number.isInteger(rawState.position)) return "";
     const candidate = rawState.queue[rawState.position];
@@ -38,14 +122,24 @@
   }
 
   function safeState(raw) {
-    if (!raw || typeof raw !== "object") return { ...DEFAULT_STATE };
+    if (!raw || typeof raw !== "object") return { ...DEFAULT_STATE, daily: emptyDailyState() };
+    const rawDaily = raw.daily && typeof raw.daily === "object" ? raw.daily : {};
+    const stringsOnly = (value) => (Array.isArray(value) ? [...new Set(value.filter((item) => typeof item === "string"))] : []);
     return {
-      weakWords: Array.isArray(raw.weakWords) ? raw.weakWords.filter((word) => typeof word === "string") : [],
-      mode: raw.mode === "weak" ? "weak" : "all",
+      weakWords: stringsOnly(raw.weakWords),
+      mode: ["weak", "daily"].includes(raw.mode) ? raw.mode : "all",
       filter: ["all", "S", "A", "B"].includes(raw.filter) ? raw.filter : "all",
-      queue: Array.isArray(raw.queue) ? raw.queue.filter((word) => typeof word === "string") : [],
+      queue: stringsOnly(raw.queue),
       position: Number.isInteger(raw.position) && raw.position >= 0 ? raw.position : 0,
       queueKey: typeof raw.queueKey === "string" ? raw.queueKey : "",
+      daily: {
+        date: /^\d{4}-\d{2}-\d{2}$/.test(rawDaily.date) ? rawDaily.date : "",
+        deckWords: stringsOnly(rawDaily.deckWords),
+        knownWords: stringsOnly(rawDaily.knownWords),
+        weakWords: stringsOnly(rawDaily.weakWords),
+        trainedWords: stringsOnly(rawDaily.trainedWords),
+        completedDates: stringsOnly(rawDaily.completedDates).filter((date) => /^\d{4}-\d{2}-\d{2}$/.test(date)),
+      },
     };
   }
 
@@ -72,6 +166,7 @@
 
   function boot() {
     const elements = {
+      shell: document.querySelector(".app-shell"),
       counter: document.querySelector("#counter"),
       weakCount: document.querySelector("#weak-count"),
       card: document.querySelector("#word-card"),
@@ -95,6 +190,17 @@
       exportProgress: document.querySelector("#export-progress"),
       importProgress: document.querySelector("#import-progress"),
       progressFile: document.querySelector("#progress-file"),
+      filters: document.querySelector(".filters"),
+      dailyDashboard: document.querySelector("#daily-dashboard"),
+      dailyTitle: document.querySelector("#daily-title"),
+      dailyKnown: document.querySelector("#daily-known"),
+      dailyWeak: document.querySelector("#daily-weak"),
+      dailyLevel: document.querySelector("#daily-level"),
+      dailyStreak: document.querySelector("#daily-streak"),
+      dailyCompleted: document.querySelector("#daily-completed"),
+      dailyProgress: document.querySelector("#daily-progress"),
+      dailyProgressFill: document.querySelector("#daily-progress-fill"),
+      dailyCalendar: document.querySelector("#daily-calendar"),
       modeButtons: [...document.querySelectorAll("[data-mode]")],
       filterButtons: [...document.querySelectorAll("[data-filter]")],
     };
@@ -104,6 +210,8 @@
     let state = loadState();
     let current = null;
     let isBack = false;
+    let todayKey = localDateKey();
+    let todayDeck = [];
 
     function loadState() {
       try {
@@ -122,6 +230,11 @@
     }
 
     function eligibleWords() {
+      if (state.mode === "daily") {
+        const completed = dailyCompletedSet();
+        const dailyWords = new Set(todayDeck);
+        return words.filter((entry) => dailyWords.has(entry.word) && !completed.has(entry.word));
+      }
       const weak = weakSet();
       return words.filter((entry) => {
         const modeMatch = state.mode === "all" || weak.has(entry.word);
@@ -131,6 +244,9 @@
     }
 
     function currentQueueKey(eligible) {
+      if (state.mode === "daily") {
+        return `daily:${todayKey}:${[...dailyCompletedSet()].sort().join("|")}:${eligible.length}`;
+      }
       const weakSignature = state.mode === "weak" ? [...weakSet()].sort().join("|") : "all";
       return `${state.mode}:${state.filter}:${weakSignature}:${eligible.length}`;
     }
@@ -145,7 +261,7 @@
     function resetQueue(previousWord = "") {
       const eligible = eligibleWords();
       const names = eligible.map((entry) => entry.word);
-      state.queue = createQueue(names, previousWord);
+      state.queue = state.mode === "daily" ? createPriorityQueue(eligible, previousWord) : createQueue(names, previousWord);
       state.position = 0;
       state.queueKey = currentQueueKey(eligible);
       saveState();
@@ -155,6 +271,92 @@
       const eligible = eligibleWords();
       const key = currentQueueKey(eligible);
       if (!queueIsRestorable(eligible, key)) resetQueue();
+    }
+
+    function dailyCompletedSet() {
+      return new Set([...state.daily.knownWords, ...state.daily.weakWords]);
+    }
+
+    function prepareDailyState() {
+      todayKey = localDateKey();
+      const vocabulary = new Set(words.map((entry) => entry.word));
+      state.daily.trainedWords = state.daily.trainedWords.filter((word) => vocabulary.has(word));
+      if (state.daily.date !== todayKey) {
+        if (state.daily.trainedWords.length >= vocabulary.size) state.daily.trainedWords = [];
+        state.daily.date = todayKey;
+        state.daily.knownWords = [];
+        state.daily.weakWords = [];
+        state.daily.deckWords = createPriorityDailyDeck(words, todayKey, state.daily.trainedWords, DAILY_TARGET);
+      }
+
+      const deckIsValid =
+        state.daily.deckWords.length === Math.min(DAILY_TARGET, words.length) &&
+        new Set(state.daily.deckWords).size === state.daily.deckWords.length &&
+        state.daily.deckWords.every((word) => vocabulary.has(word));
+      if (!deckIsValid) state.daily.deckWords = createPriorityDailyDeck(words, todayKey, state.daily.trainedWords, DAILY_TARGET);
+      todayDeck = [...state.daily.deckWords];
+
+      const deck = new Set(todayDeck);
+      state.daily.weakWords = state.daily.weakWords.filter((word) => deck.has(word));
+      const dailyWeak = new Set(state.daily.weakWords);
+      state.daily.knownWords = state.daily.knownWords.filter((word) => deck.has(word) && !dailyWeak.has(word));
+      state.daily.completedDates = [...new Set(state.daily.completedDates)].sort().slice(-366);
+      saveState();
+    }
+
+    function recordDailyResult(result) {
+      if (!current || state.mode !== "daily") return;
+      const known = new Set(state.daily.knownWords);
+      const weak = new Set(state.daily.weakWords);
+      known.delete(current.word);
+      weak.delete(current.word);
+      if (result === "known") known.add(current.word);
+      if (result === "weak") weak.add(current.word);
+      state.daily.knownWords = [...known];
+      state.daily.weakWords = [...weak];
+      state.daily.trainedWords = [...new Set([...state.daily.trainedWords, current.word])];
+
+      if (dailyCompletedSet().size >= todayDeck.length && todayDeck.length > 0) {
+        state.daily.completedDates = [...new Set([...state.daily.completedDates, todayKey])].sort().slice(-366);
+      }
+    }
+
+    function renderDailyDashboard() {
+      const completed = dailyCompletedSet().size;
+      const target = todayDeck.length || DAILY_TARGET;
+      const [, month, day] = todayKey.split("-");
+      elements.dailyTitle.textContent = `今日训练 · ${Number(month)}月${Number(day)}日`;
+      elements.dailyKnown.textContent = String(state.daily.knownWords.length);
+      elements.dailyWeak.textContent = String(state.daily.weakWords.length);
+      const remainingEntries = eligibleWords();
+      elements.dailyLevel.textContent = PRIORITY_ORDER.find((priority) => remainingEntries.some((entry) => entry.priority === priority)) || "—";
+      elements.dailyStreak.textContent = String(calculateStreak(state.daily.completedDates, todayKey));
+      elements.dailyCompleted.textContent = String(completed);
+      elements.dailyProgress.setAttribute("aria-valuemax", String(target));
+      elements.dailyProgress.setAttribute("aria-valuenow", String(completed));
+      elements.dailyProgressFill.style.width = `${target ? (completed / target) * 100 : 0}%`;
+
+      const completedDates = new Set(state.daily.completedDates);
+      const weekdayLabels = ["日", "一", "二", "三", "四", "五", "六"];
+      const fragment = document.createDocumentFragment();
+      for (let offset = -6; offset <= 0; offset += 1) {
+        const dateKey = shiftDateKey(todayKey, offset);
+        const [year, calendarMonth, calendarDay] = dateKey.split("-").map(Number);
+        const item = document.createElement("span");
+        item.className = "daily-day";
+        if (offset === 0) item.classList.add("is-today");
+        if (completedDates.has(dateKey)) item.classList.add("is-complete");
+        item.setAttribute("aria-label", `${calendarMonth}月${calendarDay}日${completedDates.has(dateKey) ? "已完成" : "未完成"}`);
+
+        const weekday = document.createElement("span");
+        weekday.textContent = weekdayLabels[new Date(Date.UTC(year, calendarMonth - 1, calendarDay)).getUTCDay()];
+        const date = document.createElement("span");
+        date.className = "daily-date";
+        date.textContent = completedDates.has(dateKey) ? "✓" : String(calendarDay);
+        item.append(weekday, date);
+        fragment.append(item);
+      }
+      elements.dailyCalendar.replaceChildren(fragment);
     }
 
     function setFace(back) {
@@ -169,7 +371,13 @@
 
     function renderControls() {
       const weak = weakSet();
+      const isDaily = state.mode === "daily";
       elements.weakCount.textContent = String(weak.size);
+      elements.shell.classList.toggle("is-daily", isDaily);
+      elements.filters.hidden = isDaily;
+      elements.dailyDashboard.hidden = !isDaily;
+      elements.markKnown.textContent = isDaily ? "认识" : "会了";
+      elements.skipWord.textContent = isDaily ? "跳过" : "下一张";
       elements.modeButtons.forEach((button) => {
         const active = button.dataset.mode === state.mode;
         button.classList.toggle("is-active", active);
@@ -180,6 +388,7 @@
         button.classList.toggle("is-active", active);
         button.setAttribute("aria-pressed", String(active));
       });
+      if (isDaily) renderDailyDashboard();
     }
 
     function renderCurrent() {
@@ -188,15 +397,20 @@
       setFace(false);
 
       if (!current) {
-        elements.counter.textContent = "0 / 0";
-        elements.frontWord.textContent = state.mode === "weak" ? "还没有不会的词" : "没有符合条件的词";
-        elements.status.textContent = state.mode === "weak" ? "先回到“全部”，遇到不会的词时点“不会”。" : "换一个优先级筛选试试。";
+        const dailyComplete = state.mode === "daily" && todayDeck.length > 0 && dailyCompletedSet().size >= todayDeck.length;
+        elements.counter.textContent = dailyComplete ? `${todayDeck.length} / ${todayDeck.length}` : "0 / 0";
+        elements.frontWord.textContent = dailyComplete ? "今日 50 词完成" : state.mode === "weak" ? "还没有不会的词" : "没有符合条件的词";
+        elements.status.textContent = dailyComplete
+          ? `认识 ${state.daily.knownWords.length} · 不会 ${state.daily.weakWords.length} · 连续 ${calculateStreak(state.daily.completedDates, todayKey)} 天`
+          : state.mode === "weak"
+            ? "先回到“随机”，遇到不会的词时点“不会”。"
+            : "换一个优先级筛选试试。";
         elements.showAnswer.hidden = true;
         return;
       }
 
-      elements.status.textContent = "";
-      elements.counter.textContent = `${state.position + 1} / ${state.queue.length}`;
+      elements.status.textContent = state.mode === "daily" ? "“认识”或“不会”计入今日进度；跳过的词稍后还会出现。" : "";
+      elements.counter.textContent = state.mode === "daily" ? `${dailyCompletedSet().size} / ${todayDeck.length}` : `${state.position + 1} / ${state.queue.length}`;
       elements.frontWord.textContent = current.word;
       elements.backWord.textContent = current.word;
       elements.priorityBadge.textContent = `${current.priority} · ${PRIORITY_LABELS[current.priority]}`;
@@ -230,6 +444,7 @@
     }
 
     function changeScope() {
+      if (state.mode === "daily" && localDateKey() !== todayKey) prepareDailyState();
       resetQueue(current ? current.word : "");
       renderCurrent();
     }
@@ -239,6 +454,7 @@
       const weak = weakSet();
       weak.add(current.word);
       state.weakWords = [...weak].sort();
+      if (state.mode === "daily") recordDailyResult("weak");
       saveState();
       advance();
     }
@@ -248,6 +464,12 @@
       const weak = weakSet();
       const removed = weak.delete(current.word);
       state.weakWords = [...weak].sort();
+      if (state.mode === "daily") {
+        recordDailyResult("known");
+        saveState();
+        advance();
+        return;
+      }
       if (removed && state.mode === "weak") {
         resetQueue(current.word);
         renderCurrent();
@@ -277,6 +499,7 @@
         .then((text) => {
           state = parseBackup(text);
           state.weakWords = state.weakWords.filter((word) => byWord.has(word));
+          prepareDailyState();
           ensureQueue();
           saveState();
           renderCurrent();
@@ -321,6 +544,14 @@
     document.addEventListener("keydown", (event) => {
       if (event.key === "ArrowRight" && current) advance();
     });
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState !== "visible" || localDateKey() === todayKey) return;
+      prepareDailyState();
+      if (state.mode === "daily") {
+        resetQueue();
+        renderCurrent();
+      }
+    });
 
     fetch("./data/words.json")
       .then((response) => {
@@ -332,6 +563,7 @@
         words = data;
         byWord = new Map(words.map((entry) => [entry.word, entry]));
         state.weakWords = state.weakWords.filter((word) => byWord.has(word));
+        prepareDailyState();
         // Every page session begins with a fresh shuffle. Learning preferences still persist.
         resetQueue(storedCurrentWord(state, byWord));
         renderCurrent();
@@ -346,7 +578,19 @@
   }
 
   if (typeof module !== "undefined" && module.exports) {
-    module.exports = { fisherYates, createQueue, storedCurrentWord, safeState, serializeBackup, parseBackup };
+    module.exports = {
+      fisherYates,
+      createQueue,
+      createPriorityDailyDeck,
+      createPriorityQueue,
+      localDateKey,
+      shiftDateKey,
+      calculateStreak,
+      storedCurrentWord,
+      safeState,
+      serializeBackup,
+      parseBackup,
+    };
   }
   if (typeof document !== "undefined") {
     document.addEventListener("DOMContentLoaded", boot);
