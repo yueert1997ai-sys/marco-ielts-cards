@@ -64,11 +64,16 @@ def extract_words(markup: str) -> list[dict]:
 
         for row in body.findall("tr"):
             cells = [clean_text(cell) for cell in list(row) if cell.tag == "td"]
-            if len(cells) != 6:
+            if len(cells) == 6:
+                word, meaning, collocation, paraphrase, _source, _status = cells
+                part_of_speech = ""
+            elif len(cells) == 7:
+                word, part_of_speech, meaning, collocation, paraphrase, _source, _status = cells
+            else:
                 continue
-            word, meaning, collocation, paraphrase, _source, _status = cells
             item = {
                 "word": word,
+                "partOfSpeech": "" if part_of_speech == "—" else part_of_speech,
                 "meaning": split_chinese(meaning),
                 "paraphrases": split_slashes(paraphrase),
                 "collocations": split_slashes(collocation),

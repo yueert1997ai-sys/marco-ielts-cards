@@ -23,8 +23,9 @@ BANNED = {
 def main() -> int:
     words = json.loads(DATA.read_text(encoding="utf-8"))
     assert isinstance(words, list) and words
-    assert all(set(item) == {"word", "meaning", "paraphrases", "collocations", "priority"} for item in words)
+    assert all(set(item) == {"word", "partOfSpeech", "meaning", "paraphrases", "collocations", "priority"} for item in words)
     assert all(item["word"] and item["meaning"] and item["priority"] in "SAB" for item in words)
+    assert all(isinstance(item["partOfSpeech"], str) for item in words)
     assert all(isinstance(item[field], list) for item in words for field in ("meaning", "paraphrases", "collocations"))
 
     by_word = {item["word"]: item for item in words}

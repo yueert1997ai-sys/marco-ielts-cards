@@ -10,6 +10,8 @@
     position: 0,
     queueKey: "",
   };
+  const BACKUP_FORMAT = "marco-ielts-cards-progress";
+  const PRIORITY_LABELS = { S: "必须秒懂", A: "重点掌握", B: "扩展积累" };
 
   function fisherYates(items, random = Math.random) {
     const result = [...items];
@@ -41,6 +43,27 @@
     };
   }
 
+  function serializeBackup(rawState, exportedAt = new Date().toISOString()) {
+    return JSON.stringify(
+      {
+        format: BACKUP_FORMAT,
+        version: 1,
+        exportedAt,
+        state: safeState(rawState),
+      },
+      null,
+      2,
+    );
+  }
+
+  function parseBackup(text) {
+    const payload = JSON.parse(text);
+    if (!payload || payload.format !== BACKUP_FORMAT || payload.version !== 1 || !payload.state) {
+      throw new Error("unsupported progress backup");
+    }
+    return safeState(payload.state);
+  }
+
   function boot() {
     const elements = {
       counter: document.querySelector("#counter"),
@@ -50,6 +73,8 @@
       back: document.querySelector("#card-back"),
       frontWord: document.querySelector("#front-word"),
       backWord: document.querySelector("#back-word"),
+      priorityBadge: document.querySelector("#priority-badge"),
+      partOfSpeech: document.querySelector("#part-of-speech"),
       meaning: document.querySelector("#meaning"),
       paraphraseBlock: document.querySelector("#paraphrase-block"),
       paraphrases: document.querySelector("#paraphrases"),
@@ -61,6 +86,9 @@
       markKnown: document.querySelector("#mark-known"),
       skipWord: document.querySelector("#skip-word"),
       status: document.querySelector("#status-message"),
+      exportProgress: document.querySelector("#export-progress"),
+      importProgress: document.querySelector("#import-progress"),
+      progressFile: document.querySelector("#progress-file"),
       modeButtons: [...document.querySelectorAll("[data-mode]")],
       filterButtons: [...document.querySelectorAll("[data-filter]")],
     };
@@ -165,11 +193,18 @@
       elements.counter.textContent = `${state.position + 1} / ${state.queue.length}`;
       elements.frontWord.textContent = current.word;
       elements.backWord.textContent = current.word;
+      elements.priorityBadge.textContent = `${current.priority} · ${PRIORITY_LABELS[current.priority]}`;
+      elements.priorityBadge.dataset.priority = current.priority;
+      elements.partOfSpeech.textContent = current.partOfSpeech
+        ? `词性 ${current.partOfSpeech}`
+        : /\s/.test(current.word)
+          ? "词组"
+          : "词性待补充";
       elements.meaning.textContent = current.meaning.join("；");
 
       const hasParaphrases = current.paraphrases.length > 0;
-      elements.paraphraseBlock.hidden = !hasParaphrases;
-      elements.paraphrases.textContent = current.paraphrases.join(" · ");
+      elements.paraphrases.classList.toggle("detail-copy-muted", !hasParaphrases);
+      elements.paraphrases.textContent = hasParaphrases ? current.paraphrases.join(" · ") : "飞书词库暂未收录可靠改写";
 
       const hasCollocations = current.collocations.length > 0;
       elements.collocationBlock.hidden = !hasCollocations;
@@ -216,6 +251,39 @@
       advance();
     }
 
+    function exportProgress() {
+      const backup = new Blob([serializeBackup(state)], { type: "application/json" });
+      const url = URL.createObjectURL(backup);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `marco-ielts-progress-${new Date().toISOString().slice(0, 10)}.json`;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+      elements.status.textContent = "进度备份已下载。";
+    }
+
+    function importProgress(file) {
+      if (!file) return;
+      file
+        .text()
+        .then((text) => {
+          state = parseBackup(text);
+          state.weakWords = state.weakWords.filter((word) => byWord.has(word));
+          ensureQueue();
+          saveState();
+          renderCurrent();
+          elements.status.textContent = "进度已恢复。";
+        })
+        .catch(() => {
+          elements.status.textContent = "恢复失败：请选择本站导出的进度 JSON。";
+        })
+        .finally(() => {
+          elements.progressFile.value = "";
+        });
+    }
+
     elements.card.addEventListener("click", () => {
       if (current) setFace(!isBack);
     });
@@ -229,6 +297,9 @@
     elements.markWeak.addEventListener("click", markWeak);
     elements.markKnown.addEventListener("click", markKnown);
     elements.skipWord.addEventListener("click", advance);
+    elements.exportProgress.addEventListener("click", exportProgress);
+    elements.importProgress.addEventListener("click", () => elements.progressFile.click());
+    elements.progressFile.addEventListener("change", () => importProgress(elements.progressFile.files[0]));
     elements.modeButtons.forEach((button) => {
       button.addEventListener("click", () => {
         state.mode = button.dataset.mode;
@@ -268,7 +339,7 @@
   }
 
   if (typeof module !== "undefined" && module.exports) {
-    module.exports = { fisherYates, createQueue, safeState };
+    module.exports = { fisherYates, createQueue, safeState, serializeBackup, parseBackup };
   }
   if (typeof document !== "undefined") {
     document.addEventListener("DOMContentLoaded", boot);

@@ -41,10 +41,14 @@
 
           <section id="card-back" class="card-face card-back" hidden>
             <h2 id="back-word" class="back-word"></h2>
+            <div class="word-meta" aria-label="词条信息">
+              <span id="priority-badge" class="priority-badge"></span>
+              <span id="part-of-speech" class="part-of-speech"></span>
+            </div>
             <p id="meaning" class="meaning"></p>
 
-            <div id="paraphrase-block" class="detail-block" hidden>
-              <p class="detail-label">常见改写</p>
+            <div id="paraphrase-block" class="detail-block">
+              <p class="detail-label">同义词 / 可靠改写</p>
               <p id="paraphrases" class="detail-copy"></p>
             </div>
 
@@ -66,6 +70,16 @@
       </section>
 
       <p id="status-message" class="status-message" role="status" aria-live="polite"></p>
+
+      <details class="progress-tools">
+        <summary>进度管理</summary>
+        <div class="progress-actions">
+          <button id="export-progress" class="utility-button" type="button">备份进度</button>
+          <button id="import-progress" class="utility-button" type="button">恢复进度</button>
+          <input id="progress-file" type="file" accept="application/json,.json" hidden />
+        </div>
+        <p class="progress-note">进度只属于当前浏览器；分享网页链接不会共享你的记录。</p>
+      </details>
     </div>
 
     <script src="./app.js" defer></script>

@@ -1,7 +1,7 @@
 "use strict";
 
 const assert = require("node:assert/strict");
-const { fisherYates, createQueue, safeState } = require("../app.js");
+const { fisherYates, createQueue, safeState, serializeBackup, parseBackup } = require("../app.js");
 
 const source = ["period", "field", "scale", "assignment"];
 const sequence = [0.1, 0.7, 0.3, 0.9, 0.2];
@@ -26,4 +26,15 @@ assert.deepEqual(safeState({ mode: "bad", filter: "X", weakWords: ["field", 2] }
   queueKey: "",
 });
 
-console.log(JSON.stringify({ ok: true, tests: 7 }));
+const backup = serializeBackup({ weakWords: ["field"], mode: "weak", filter: "S" }, "2026-08-18T00:00:00.000Z");
+assert.deepEqual(parseBackup(backup), {
+  weakWords: ["field"],
+  mode: "weak",
+  filter: "S",
+  queue: [],
+  position: 0,
+  queueKey: "",
+});
+assert.throws(() => parseBackup('{"version":1}'));
+
+console.log(JSON.stringify({ ok: true, tests: 9 }));
